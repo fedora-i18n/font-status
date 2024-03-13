@@ -54,9 +54,13 @@ jobs:
       - name: Build pages
         run: |
           REL=""
-          for i in $(curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases/development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq); do
+          for i in $(curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases|development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq); do
             REL="$REL -r $i"
           done
+          if [ -z "$REL" ]; then
+            echo "Unable to get supported releases"
+            exit 1
+          fi
           for t in minimal; do
             echo fontquery $REL -m html -t $t
             fontquery $REL -m html -t $t
