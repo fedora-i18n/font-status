@@ -57,7 +57,7 @@ jobs:
           for i in $(cat .releases); do
             REL="$REL -r $i"
           done
-          for t in minimal all; do
+          for t in minimal; do
             fontquery $REL -m html -t $t
           done
       - name: Setup Pages
