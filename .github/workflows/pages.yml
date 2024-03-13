@@ -57,7 +57,7 @@ jobs:
       - name: Build pages
         run: |
           REL=""
-          for i in ${{ steps.vars.fedora_releases }}; do
+          for i in ${{ steps.vars.outputs.fedora_releases }}; do
             REL="$REL -r $i"
           done
           if [ -z "$REL" ]; then
