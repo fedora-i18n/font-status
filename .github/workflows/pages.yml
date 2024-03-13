@@ -51,10 +51,13 @@ jobs:
           rm -rf fontquery
       - name: Install dependencies
         run: sudo apt install podman buildah curl
+      - name: Get supported releases
+        id: vars
+        run: (echo -n "fedora_releases=" && curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases|development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq) >> $GITHUB_OUTPUT
       - name: Build pages
         run: |
           REL=""
-          for i in $(curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases|development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq); do
+          for i in ${{ steps.vars.fedora_releases }}; do
             REL="$REL -r $i"
           done
           if [ -z "$REL" ]; then
@@ -68,7 +71,7 @@ jobs:
       - name: Build index
         run: |
           cp README.templ README.md
-          for i in $(cat .releases); do
+          for i in ${{ steps.vars.fedora_releases }}; do
             echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal.html)" >> README.md
           done
       - name: Setup Pages
