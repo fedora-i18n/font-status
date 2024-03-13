@@ -60,6 +60,12 @@ jobs:
           for t in minimal; do
             fontquery $REL -m html -t $t
           done
+      - name: Build index
+        run: |
+          cp README.templ README.md
+          for i in $(cat .releases); do
+            echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal.html)" >> README.md
+          done
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
