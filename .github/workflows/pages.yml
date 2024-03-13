@@ -50,11 +50,11 @@ jobs:
           popd
           rm -rf fontquery
       - name: Install dependencies
-        run: sudo apt install podman buildah
+        run: sudo apt install podman buildah curl
       - name: Build pages
         run: |
           REL=""
-          for i in $(cat .releases); do
+          for i in $(curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases/development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq); do
             REL="$REL -r $i"
           done
           for t in minimal; do
