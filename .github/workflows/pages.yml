@@ -71,7 +71,7 @@ jobs:
       - name: Build index
         run: |
           cp README.templ README.md
-          for i in ${{ steps.vars.fedora_releases }}; do
+          for i in ${{ steps.vars.outputs.fedora_releases }}; do
             echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal.html)" >> README.md
           done
       - name: Setup Pages
