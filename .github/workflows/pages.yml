@@ -58,6 +58,7 @@ jobs:
             REL="$REL -r $i"
           done
           for t in minimal; do
+            echo fontquery $REL -m html -t $t
             fontquery $REL -m html -t $t
           done
       - name: Build index
