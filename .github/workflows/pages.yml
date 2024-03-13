@@ -44,9 +44,10 @@ jobs:
       - name: Install fontquery
         run: |
           pip install build wheel
+          pushd fontquery
           python -m build
           pip install dist/fontquery*.whl
-          cd ..
+          popd
           rm -rf fontquery
       - name: Install dependencies
         run: sudo apt install podman buildah
