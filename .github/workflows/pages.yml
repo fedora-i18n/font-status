@@ -54,6 +54,9 @@ jobs:
       - name: Get supported releases
         id: vars
         run: (echo -n "fedora_releases=" && curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases|development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq | tr "\n" " ") >> $GITHUB_OUTPUT
+      - name: Set date
+        id: date
+        run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
       - name: Build pages
         run: |
           REL=""
@@ -66,13 +69,13 @@ jobs:
           fi
           for t in minimal; do
             echo fontquery $REL -m html -t $t
-            fontquery $REL -m html -t $t
+            fontquery $REL -m html -t $t -f "{platform}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
       - name: Build index
         run: |
           cp README.templ README.md
           for i in ${{ steps.vars.outputs.fedora_releases }}; do
-            echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal.html)" >> README.md
+            echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal-${{ steps.date.outputs.date }}.html)" >> README.md
           done
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -80,6 +83,8 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          retention-days: 14
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
