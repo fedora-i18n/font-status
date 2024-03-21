@@ -8,6 +8,8 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 0'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -19,6 +21,9 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
+
+env:
+  KEEP_WEEK: 12
 
 jobs:
   # Single deploy job since we're just deploying
@@ -85,14 +90,19 @@ jobs:
       - name: Build index
         run: |
           cp README.templ README.md
+          mkdir used
           for i in ${{ steps.vars.outputs.fedora_releases }}; do
             echo -n "* $i \[" >> README.md
-            for f in $(ls -1t fedora-$i*.html); do
+            for f in $(ls -1t fedora-$i*.html|head -${{ env.KEEP_WEEK }}); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
+              mv $f used
               echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
             done
             echo "\]" >> README.md
           done
+          rm *-[0-9]*.html
+          mv used/* .
+          rmdir used
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
