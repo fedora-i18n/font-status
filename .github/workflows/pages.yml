@@ -91,7 +91,7 @@ jobs:
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
             done
-            echo "\]"
+            echo "\]" >> README.md
           done
       - name: Setup Pages
         uses: actions/configure-pages@v4
