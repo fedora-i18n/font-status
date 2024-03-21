@@ -79,7 +79,8 @@ jobs:
         run: |
           pushd github-pages
           tar xvfa artifact.tar
-          cp -a artifact/fedora*html ../_site/
+          cp -a *-[0-9]*.html ../_site/
+          popd
       - name: Build index
         run: |
           cp README.templ README.md
