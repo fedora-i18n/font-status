@@ -79,13 +79,16 @@ jobs:
         run: |
           pushd github-pages
           tar xvfa artifact.tar
-          cp -a *-[0-9]*.html ../_site/
+          cp -a *-[0-9]*.html ..
           popd
+          rm -rf github-pages
       - name: Build index
         run: |
           cp README.templ README.md
           for i in ${{ steps.vars.outputs.fedora_releases }}; do
-            echo "* [$i](https://fedora-i18n.github.io/font-status/fedora-$i-minimal-${{ steps.date.outputs.date }}.html)" >> README.md
+            for f in $(ls -1t fedora-$i*.html); do
+              d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
+              echo "* $i \[[[$d](https://fedora-i18n.github.io/font-status/$f)" >> README.md
           done
       - name: Setup Pages
         uses: actions/configure-pages@v4
