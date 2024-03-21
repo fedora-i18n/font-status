@@ -100,7 +100,7 @@ jobs:
             done
             echo "\]" >> README.md
           done
-          rm *-[0-9]*.html
+          rm *-[0-9]*.html || :
           mv used/* .
           rmdir used
       - name: Setup Pages
