@@ -57,6 +57,17 @@ jobs:
       - name: Set date
         id: date
         run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
+      - name: Download artifact
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          if_no_artifact_found: ignore
+      - name: Copy old pages
+        run: |
+          pushd github-pages
+          tar xvfa artifact.tar
+          cp -a *-[0-9]*.html ..
+          popd
+          rm -rf github-pages
       - name: Build pages
         run: |
           REL=""
@@ -71,24 +82,16 @@ jobs:
             echo fontquery $REL -m html -t $t
             fontquery $REL -m html -t $t -f "{platform}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
-      - name: Download artifact
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          if_no_artifact_found: ignore
-      - name: Copy old pages
-        run: |
-          pushd github-pages
-          tar xvfa artifact.tar
-          cp -a *-[0-9]*.html ..
-          popd
-          rm -rf github-pages
       - name: Build index
         run: |
           cp README.templ README.md
           for i in ${{ steps.vars.outputs.fedora_releases }}; do
+            echo -n "* $i \[" >> README.md
             for f in $(ls -1t fedora-$i*.html); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
-              echo "* $i \[[[$d](https://fedora-i18n.github.io/font-status/$f)" >> README.md
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
+            done
+            echo "\]"
           done
       - name: Setup Pages
         uses: actions/configure-pages@v4
