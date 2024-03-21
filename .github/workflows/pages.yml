@@ -54,8 +54,6 @@ jobs:
       - name: Get supported releases
         id: vars
         run: (echo -n "fedora_releases=" && curl https://dl.fedoraproject.org/pub/fedora/imagelist-fedora | grep -E '(releases|development)/[0-9]+' | sed -e 's,.*/\([0-9]*\)/.*,\1,g' | sort | uniq | tr "\n" " ") >> $GITHUB_OUTPUT
-      - name: Download artifact
-        uses: actions/download-artifact@v4
       - name: Set date
         id: date
         run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
@@ -73,6 +71,15 @@ jobs:
             echo fontquery $REL -m html -t $t
             fontquery $REL -m html -t $t -f "{platform}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+      - name: Copy old pages
+        run: |
+          pushd github-pages
+          tar xvfa artifact.tar
+          cp -a artifact/fedora*html ../_site/
       - name: Build index
         run: |
           cp README.templ README.md
