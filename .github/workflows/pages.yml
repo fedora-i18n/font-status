@@ -72,10 +72,9 @@ jobs:
             fontquery $REL -m html -t $t -f "{platform}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
       - name: Download artifact
-        uses: actions/download-artifact@v4
+        uses: dawidd6/action-download-artifact@v3
         with:
-          name: github-pages
-        continue-on-error: true
+          if_no_artifact_found: ignore
       - name: Copy old pages
         run: |
           pushd github-pages
