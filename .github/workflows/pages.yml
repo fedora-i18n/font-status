@@ -55,9 +55,12 @@ jobs:
           popd
       - name: Install dependencies
         run: sudo apt install podman buildah curl
-      - name: Get supported releases
+      - name: Get supported releases for Fedora
         id: fedora
         uses: ./fontquery/.github/actions/supported_releases
+      - name: Get supported releases for CentOS
+        id: centos
+        uses: ./fontquery/.github/actions/centos_supported_releases
       - name: Clean up fontquery
         run: rm -rf fontquery
       - name: Set date
@@ -81,20 +84,42 @@ jobs:
             REL="$REL -r $i"
           done
           if [ -z "$REL" ]; then
-            echo "Unable to get supported releases"
+            echo "Unable to get supported releases for Fedora"
             exit 1
           fi
           for t in minimal; do
-            echo fontquery $REL -m html -t $t
-            fontquery $REL -m html -t $t -f "{platform}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+            echo fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+            fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+          done
+          for i in ${{ steps.centos.outputs.releases }}; do
+            REL="$REL -r $i"
+          done
+          if [ -z "$REL" ]; then
+            echo "Unable to get supported releases for CentOS"
+            exit 1
+          fi
+          for t in minimal; do
+            echo fontquery -P centos $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+            fontquery -P centos $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
       - name: Build index
         run: |
           cp README.templ README.md
           mkdir used
+          echo "### Fedora\n" >> README.md
           for i in ${{ steps.fedora.outputs.releases }}; do
             echo -n "* $i \[" >> README.md
             for f in $(ls -1t fedora-$i*.html|head -${{ env.KEEP_WEEK }}); do
+              d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
+              mv $f used
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
+            done
+            echo "\]" >> README.md
+          done
+          echo "### CentOS\n" >> README.md
+          for i in ${{ steps.centos.outputs.releases }}; do
+            echo -n "* $i \[" >> README.md
+            for f in $(ls -1t centos-$i*.html|head -${{ env.KEEP_WEEK }}); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
               echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
