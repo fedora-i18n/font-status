@@ -91,6 +91,7 @@ jobs:
             echo fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
             fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
           done
+          REL=""
           for i in ${{ steps.centos.outputs.releases }}; do
             REL="$REL -r $i"
           done
