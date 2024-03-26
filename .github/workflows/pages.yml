@@ -107,7 +107,8 @@ jobs:
         run: |
           cp README.templ README.md
           mkdir used
-          echo "### Fedora\n" >> README.md
+          echo "### Fedora" >> README.md
+          echo "" >> README.md
           for i in ${{ steps.fedora.outputs.releases }}; do
             echo -n "* $i \[" >> README.md
             for f in $(ls -1t fedora-$i*.html|head -${{ env.KEEP_WEEK }}); do
@@ -117,7 +118,9 @@ jobs:
             done
             echo "\]" >> README.md
           done
-          echo "### CentOS\n" >> README.md
+          echo "" >> README.md
+          echo "### CentOS" >> README.md
+          echo "" >> README.md
           for i in ${{ steps.centos.outputs.releases }}; do
             echo -n "* $i \[" >> README.md
             for f in $(ls -1t centos-$i*.html|head -${{ env.KEEP_WEEK }}); do
