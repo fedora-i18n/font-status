@@ -1,0 +1,5960 @@
+{
+    "id": "centos",
+    "version_id": "9",
+    "pattern": "minimal",
+    "fq_id": "20240322203904",
+    "fonts": [
+        {
+            "lang": "aa",
+            "lang_name": "Afar",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "aa",
+            "lang_name": "Afar",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "aa",
+            "lang_name": "Afar",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ab",
+            "lang_name": "Abkhazian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ab",
+            "lang_name": "Abkhazian",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ab",
+            "lang_name": "Abkhazian",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ak",
+            "lang_name": "Akan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ak",
+            "lang_name": "Akan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ak",
+            "lang_name": "Akan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "an",
+            "lang_name": "Aragonese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "an",
+            "lang_name": "Aragonese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "an",
+            "lang_name": "Aragonese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "sans-serif",
+            "file": "Lohit-Assamese.ttf",
+            "family": "Lohit Assamese",
+            "style": "Regular"
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "serif",
+            "file": "Lohit-Assamese.ttf",
+            "family": "Lohit Assamese",
+            "style": "Regular"
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "monospace",
+            "file": "Lohit-Assamese.ttf",
+            "family": "Lohit Assamese",
+            "style": "Regular"
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "av",
+            "lang_name": "Avaric",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "av",
+            "lang_name": "Avaric",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "av",
+            "lang_name": "Avaric",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ay",
+            "lang_name": "Aymara",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ay",
+            "lang_name": "Aymara",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ay",
+            "lang_name": "Aymara",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "az_az",
+            "lang_name": "Azerbaijani (Azerbaijan)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "az_az",
+            "lang_name": "Azerbaijani (Azerbaijan)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "az_az",
+            "lang_name": "Azerbaijani (Azerbaijan)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "az_ir",
+            "lang_name": "Azerbaijani (Iran)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "az_ir",
+            "lang_name": "Azerbaijani (Iran)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "az_ir",
+            "lang_name": "Azerbaijani (Iran)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ba",
+            "lang_name": "Bashkir",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ba",
+            "lang_name": "Bashkir",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ba",
+            "lang_name": "Bashkir",
+            "alias": "monospace",
+            "file": "SourceCodePro-Regular.otf",
+            "family": "Source Code Pro",
+            "style": "Regular"
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_dz",
+            "lang_name": "Berber (Algeria)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_dz",
+            "lang_name": "Berber (Algeria)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_dz",
+            "lang_name": "Berber (Algeria)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_ma",
+            "lang_name": "Berber (Morocco)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_ma",
+            "lang_name": "Berber (Morocco)",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ber_ma",
+            "lang_name": "Berber (Morocco)",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "bh",
+            "lang_name": "",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bh",
+            "lang_name": "",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bh",
+            "lang_name": "",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bho",
+            "lang_name": "Bhojpuri",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bho",
+            "lang_name": "Bhojpuri",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bho",
+            "lang_name": "Bhojpuri",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bi",
+            "lang_name": "Bislama",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bi",
+            "lang_name": "Bislama",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bi",
+            "lang_name": "Bislama",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "bin",
+            "lang_name": "Bini",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bin",
+            "lang_name": "Bini",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bin",
+            "lang_name": "Bini",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "bm",
+            "lang_name": "Bambara",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bm",
+            "lang_name": "Bambara",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bm",
+            "lang_name": "Bambara",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "sans-serif",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "serif",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "monospace",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "sans-serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "monospace",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "br",
+            "lang_name": "Breton",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "br",
+            "lang_name": "Breton",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "br",
+            "lang_name": "Breton",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "brx",
+            "lang_name": "Bodo",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "brx",
+            "lang_name": "Bodo",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "brx",
+            "lang_name": "Bodo",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "bua",
+            "lang_name": "Buriat",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "bua",
+            "lang_name": "Buriat",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "bua",
+            "lang_name": "Buriat",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "byn",
+            "lang_name": "Blin",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "byn",
+            "lang_name": "Blin",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "byn",
+            "lang_name": "Blin",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ce",
+            "lang_name": "Chechen",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ce",
+            "lang_name": "Chechen",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ce",
+            "lang_name": "Chechen",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ch",
+            "lang_name": "Chamorro",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ch",
+            "lang_name": "Chamorro",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ch",
+            "lang_name": "Chamorro",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "chm",
+            "lang_name": "Mari",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "chm",
+            "lang_name": "Mari",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "chm",
+            "lang_name": "Mari",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "chr",
+            "lang_name": "Cherokee",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "chr",
+            "lang_name": "Cherokee",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "chr",
+            "lang_name": "Cherokee",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "co",
+            "lang_name": "Corsican",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "co",
+            "lang_name": "Corsican",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "co",
+            "lang_name": "Corsican",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "crh",
+            "lang_name": "Crimean Tatar",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "crh",
+            "lang_name": "Crimean Tatar",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "crh",
+            "lang_name": "Crimean Tatar",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "csb",
+            "lang_name": "Kashubian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "csb",
+            "lang_name": "Kashubian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "csb",
+            "lang_name": "Kashubian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "cu",
+            "lang_name": "Church Slavic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cu",
+            "lang_name": "Church Slavic",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cu",
+            "lang_name": "Church Slavic",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cv",
+            "lang_name": "Chuvash",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cv",
+            "lang_name": "Chuvash",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "cv",
+            "lang_name": "Chuvash",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "doi",
+            "lang_name": "Dogri",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "doi",
+            "lang_name": "Dogri",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "doi",
+            "lang_name": "Dogri",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "dv",
+            "lang_name": "Divehi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "dv",
+            "lang_name": "Divehi",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "dv",
+            "lang_name": "Divehi",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "dz",
+            "lang_name": "Dzongkha",
+            "alias": "sans-serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "dz",
+            "lang_name": "Dzongkha",
+            "alias": "serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "dz",
+            "lang_name": "Dzongkha",
+            "alias": "monospace",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ee",
+            "lang_name": "Ewe",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ee",
+            "lang_name": "Ewe",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ee",
+            "lang_name": "Ewe",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fat",
+            "lang_name": "Fanti",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fat",
+            "lang_name": "Fanti",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fat",
+            "lang_name": "Fanti",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ff",
+            "lang_name": "Fula",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ff",
+            "lang_name": "Fula",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ff",
+            "lang_name": "Fula",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fj",
+            "lang_name": "Fijian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fj",
+            "lang_name": "Fijian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fj",
+            "lang_name": "Fijian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fo",
+            "lang_name": "Faroese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fo",
+            "lang_name": "Faroese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fo",
+            "lang_name": "Faroese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "gd",
+            "lang_name": "Scottish Gaelic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "gd",
+            "lang_name": "Scottish Gaelic",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "gd",
+            "lang_name": "Scottish Gaelic",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "gez",
+            "lang_name": "Geez",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "gez",
+            "lang_name": "Geez",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "gez",
+            "lang_name": "Geez",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "gn",
+            "lang_name": "Guarani",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "gn",
+            "lang_name": "Guarani",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "gn",
+            "lang_name": "Guarani",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "sans-serif",
+            "file": "Lohit-Gujarati.ttf",
+            "family": "Lohit Gujarati",
+            "style": "Regular"
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "serif",
+            "file": "Lohit-Gujarati.ttf",
+            "family": "Lohit Gujarati",
+            "style": "Regular"
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "monospace",
+            "file": "Lohit-Gujarati.ttf",
+            "family": "Lohit Gujarati",
+            "style": "Regular"
+        },
+        {
+            "lang": "gv",
+            "lang_name": "Manx",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "gv",
+            "lang_name": "Manx",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "gv",
+            "lang_name": "Manx",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ha",
+            "lang_name": "Hausa",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ha",
+            "lang_name": "Hausa",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ha",
+            "lang_name": "Hausa",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "haw",
+            "lang_name": "Hawaiian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "haw",
+            "lang_name": "Hawaiian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "haw",
+            "lang_name": "Hawaiian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "hne",
+            "lang_name": "Chhattisgarhi",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "hne",
+            "lang_name": "Chhattisgarhi",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "hne",
+            "lang_name": "Chhattisgarhi",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ho",
+            "lang_name": "Hiri Motu",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ho",
+            "lang_name": "Hiri Motu",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ho",
+            "lang_name": "Hiri Motu",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "hsb",
+            "lang_name": "Upper Sorbian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hsb",
+            "lang_name": "Upper Sorbian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "hsb",
+            "lang_name": "Upper Sorbian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ht",
+            "lang_name": "Haitian Creole",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ht",
+            "lang_name": "Haitian Creole",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ht",
+            "lang_name": "Haitian Creole",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "hy",
+            "lang_name": "Armenian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hy",
+            "lang_name": "Armenian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "hy",
+            "lang_name": "Armenian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "hz",
+            "lang_name": "Herero",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "hz",
+            "lang_name": "Herero",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "hz",
+            "lang_name": "Herero",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ie",
+            "lang_name": "Interlingue",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ie",
+            "lang_name": "Interlingue",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ie",
+            "lang_name": "Interlingue",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ig",
+            "lang_name": "Igbo",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ig",
+            "lang_name": "Igbo",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ig",
+            "lang_name": "Igbo",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ii",
+            "lang_name": "Sichuan Yi",
+            "alias": "sans-serif",
+            "file": "NuosuSIL-Regular.ttf",
+            "family": "Nuosu SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ii",
+            "lang_name": "Sichuan Yi",
+            "alias": "serif",
+            "file": "NuosuSIL-Regular.ttf",
+            "family": "Nuosu SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ii",
+            "lang_name": "Sichuan Yi",
+            "alias": "monospace",
+            "file": "NuosuSIL-Regular.ttf",
+            "family": "Nuosu SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ik",
+            "lang_name": "Inupiaq",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ik",
+            "lang_name": "Inupiaq",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ik",
+            "lang_name": "Inupiaq",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "io",
+            "lang_name": "Ido",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "io",
+            "lang_name": "Ido",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "io",
+            "lang_name": "Ido",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "iu",
+            "lang_name": "Inuktitut",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "iu",
+            "lang_name": "Inuktitut",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "iu",
+            "lang_name": "Inuktitut",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK JP",
+            "style": "Regular"
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK JP",
+            "style": "Regular"
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK JP",
+            "style": "Regular"
+        },
+        {
+            "lang": "jv",
+            "lang_name": "Javanese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "jv",
+            "lang_name": "Javanese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "jv",
+            "lang_name": "Javanese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kaa",
+            "lang_name": "Kara-Kalpak",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kaa",
+            "lang_name": "Kara-Kalpak",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kaa",
+            "lang_name": "Kara-Kalpak",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ki",
+            "lang_name": "Kikuyu",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ki",
+            "lang_name": "Kikuyu",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ki",
+            "lang_name": "Kikuyu",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kj",
+            "lang_name": "Kuanyama",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kj",
+            "lang_name": "Kuanyama",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kj",
+            "lang_name": "Kuanyama",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kl",
+            "lang_name": "Kalaallisut",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kl",
+            "lang_name": "Kalaallisut",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kl",
+            "lang_name": "Kalaallisut",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "sans-serif",
+            "file": "KhmerOS_sys.ttf",
+            "family": "Khmer OS System",
+            "style": "Regular"
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "serif",
+            "file": "KhmerOS_sys.ttf",
+            "family": "Khmer OS System",
+            "style": "Regular"
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "monospace",
+            "file": "KhmerOS_sys.ttf",
+            "family": "Khmer OS System",
+            "style": "Regular"
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "sans-serif",
+            "file": "Lohit-Kannada.ttf",
+            "family": "Lohit Kannada",
+            "style": "Regular"
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "serif",
+            "file": "Lohit-Kannada.ttf",
+            "family": "Lohit Kannada",
+            "style": "Regular"
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "monospace",
+            "file": "Lohit-Kannada.ttf",
+            "family": "Lohit Kannada",
+            "style": "Regular"
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK KR",
+            "style": "Regular"
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK KR",
+            "style": "Regular"
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK KR",
+            "style": "Regular"
+        },
+        {
+            "lang": "kok",
+            "lang_name": "Konkani",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "kok",
+            "lang_name": "Konkani",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "kok",
+            "lang_name": "Konkani",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "kr",
+            "lang_name": "Kanuri",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kr",
+            "lang_name": "Kanuri",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kr",
+            "lang_name": "Kanuri",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ks",
+            "lang_name": "Kashmiri",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ks",
+            "lang_name": "Kashmiri",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ks",
+            "lang_name": "Kashmiri",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ku_am",
+            "lang_name": "Kurdish (Armenia)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_am",
+            "lang_name": "Kurdish (Armenia)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_am",
+            "lang_name": "Kurdish (Armenia)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_iq",
+            "lang_name": "Kurdish (Iraq)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_iq",
+            "lang_name": "Kurdish (Iraq)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ku_iq",
+            "lang_name": "Kurdish (Iraq)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ku_ir",
+            "lang_name": "Kurdish (Iran)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_ir",
+            "lang_name": "Kurdish (Iran)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ku_ir",
+            "lang_name": "Kurdish (Iran)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ku_tr",
+            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_tr",
+            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ku_tr",
+            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kum",
+            "lang_name": "Kumyk",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kum",
+            "lang_name": "Kumyk",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kum",
+            "lang_name": "Kumyk",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kv",
+            "lang_name": "Komi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kv",
+            "lang_name": "Komi",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kv",
+            "lang_name": "Komi",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "kwm",
+            "lang_name": "Kwambi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "kwm",
+            "lang_name": "Kwambi",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "kwm",
+            "lang_name": "Kwambi",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ky",
+            "lang_name": "Kyrgyz",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ky",
+            "lang_name": "Kyrgyz",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ky",
+            "lang_name": "Kyrgyz",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "la",
+            "lang_name": "Latin",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "la",
+            "lang_name": "Latin",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "la",
+            "lang_name": "Latin",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "lah",
+            "lang_name": "Western Panjabi",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "lah",
+            "lang_name": "Western Panjabi",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "lah",
+            "lang_name": "Western Panjabi",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "lb",
+            "lang_name": "Luxembourgish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lb",
+            "lang_name": "Luxembourgish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "lb",
+            "lang_name": "Luxembourgish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "lez",
+            "lang_name": "Lezghian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lez",
+            "lang_name": "Lezghian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "lez",
+            "lang_name": "Lezghian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "lg",
+            "lang_name": "Ganda",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lg",
+            "lang_name": "Ganda",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "lg",
+            "lang_name": "Ganda",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "li",
+            "lang_name": "Limburgish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "li",
+            "lang_name": "Limburgish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "li",
+            "lang_name": "Limburgish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ln",
+            "lang_name": "Lingala",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ln",
+            "lang_name": "Lingala",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ln",
+            "lang_name": "Lingala",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "mg",
+            "lang_name": "Malagasy",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mg",
+            "lang_name": "Malagasy",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mg",
+            "lang_name": "Malagasy",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mh",
+            "lang_name": "Marshallese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mh",
+            "lang_name": "Marshallese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mh",
+            "lang_name": "Marshallese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mi",
+            "lang_name": "M\u0101ori",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mi",
+            "lang_name": "M\u0101ori",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mi",
+            "lang_name": "M\u0101ori",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "sans-serif",
+            "file": "Meera-Regular.ttf",
+            "family": "Meera",
+            "style": "Regular"
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "serif",
+            "file": "Meera-Regular.ttf",
+            "family": "Meera",
+            "style": "Regular"
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "monospace",
+            "file": "Meera-Regular.ttf",
+            "family": "Meera",
+            "style": "Regular"
+        },
+        {
+            "lang": "mn_cn",
+            "lang_name": "Mongolian (China)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mn_cn",
+            "lang_name": "Mongolian (China)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mn_cn",
+            "lang_name": "Mongolian (China)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mn_mn",
+            "lang_name": "Mongolian (Mongolia)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mn_mn",
+            "lang_name": "Mongolian (Mongolia)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mn_mn",
+            "lang_name": "Mongolian (Mongolia)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mni",
+            "lang_name": "Manipuri",
+            "alias": "sans-serif",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "mni",
+            "lang_name": "Manipuri",
+            "alias": "serif",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "mni",
+            "lang_name": "Manipuri",
+            "alias": "monospace",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular"
+        },
+        {
+            "lang": "mo",
+            "lang_name": "Moldovan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mo",
+            "lang_name": "Moldovan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mo",
+            "lang_name": "Moldovan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "mt",
+            "lang_name": "Maltese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "mt",
+            "lang_name": "Maltese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "mt",
+            "lang_name": "Maltese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "sans-serif",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular"
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "serif",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular"
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "monospace",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular"
+        },
+        {
+            "lang": "na",
+            "lang_name": "Nauru",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "na",
+            "lang_name": "Nauru",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "na",
+            "lang_name": "Nauru",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "ng",
+            "lang_name": "Ndonga",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ng",
+            "lang_name": "Ndonga",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ng",
+            "lang_name": "Ndonga",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "no",
+            "lang_name": "Norwegian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "no",
+            "lang_name": "Norwegian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "no",
+            "lang_name": "Norwegian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nqo",
+            "lang_name": "N\u2019Ko",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nqo",
+            "lang_name": "N\u2019Ko",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nqo",
+            "lang_name": "N\u2019Ko",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nr",
+            "lang_name": "South Ndebele",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nr",
+            "lang_name": "South Ndebele",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nr",
+            "lang_name": "South Ndebele",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "nv",
+            "lang_name": "Navajo",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "nv",
+            "lang_name": "Navajo",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "nv",
+            "lang_name": "Navajo",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ny",
+            "lang_name": "Nyanja",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ny",
+            "lang_name": "Nyanja",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ny",
+            "lang_name": "Nyanja",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "sans-serif",
+            "file": "Lohit-Odia.ttf",
+            "family": "Lohit Odia",
+            "style": "Regular"
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "serif",
+            "file": "Lohit-Odia.ttf",
+            "family": "Lohit Odia",
+            "style": "Regular"
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "monospace",
+            "file": "Lohit-Odia.ttf",
+            "family": "Lohit Odia",
+            "style": "Regular"
+        },
+        {
+            "lang": "os",
+            "lang_name": "Ossetic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "os",
+            "lang_name": "Ossetic",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "os",
+            "lang_name": "Ossetic",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ota",
+            "lang_name": "Ottoman Turkish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ota",
+            "lang_name": "Ottoman Turkish",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ota",
+            "lang_name": "Ottoman Turkish",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa_pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa_pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pa_pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pap_an",
+            "lang_name": "Papiamento (Netherlands Antilles)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "pap_an",
+            "lang_name": "Papiamento (Netherlands Antilles)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "pap_an",
+            "lang_name": "Papiamento (Netherlands Antilles)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "pap_aw",
+            "lang_name": "Papiamento (Aruba)",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "pap_aw",
+            "lang_name": "Papiamento (Aruba)",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "pap_aw",
+            "lang_name": "Papiamento (Aruba)",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "pes",
+            "lang_name": "",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "pes",
+            "lang_name": "",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "pes",
+            "lang_name": "",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "prs",
+            "lang_name": "",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "prs",
+            "lang_name": "",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "prs",
+            "lang_name": "",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ps_af",
+            "lang_name": "Pashto (Afghanistan)",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ps_af",
+            "lang_name": "Pashto (Afghanistan)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ps_af",
+            "lang_name": "Pashto (Afghanistan)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ps_pk",
+            "lang_name": "Pashto (Pakistan)",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ps_pk",
+            "lang_name": "Pashto (Pakistan)",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ps_pk",
+            "lang_name": "Pashto (Pakistan)",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "qu",
+            "lang_name": "Quechua",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "qu",
+            "lang_name": "Quechua",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "qu",
+            "lang_name": "Quechua",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "quz",
+            "lang_name": "Cusco Quechua",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "quz",
+            "lang_name": "Cusco Quechua",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "quz",
+            "lang_name": "Cusco Quechua",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "rm",
+            "lang_name": "Romansh",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "rm",
+            "lang_name": "Romansh",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "rm",
+            "lang_name": "Romansh",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "rn",
+            "lang_name": "Rundi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "rn",
+            "lang_name": "Rundi",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "rn",
+            "lang_name": "Rundi",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "rw",
+            "lang_name": "Kinyarwanda",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "rw",
+            "lang_name": "Kinyarwanda",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "rw",
+            "lang_name": "Kinyarwanda",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sa",
+            "lang_name": "Sanskrit",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sa",
+            "lang_name": "Sanskrit",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sa",
+            "lang_name": "Sanskrit",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sah",
+            "lang_name": "Yakut",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sah",
+            "lang_name": "Yakut",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sah",
+            "lang_name": "Yakut",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sat",
+            "lang_name": "Santali",
+            "alias": "sans-serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sat",
+            "lang_name": "Santali",
+            "alias": "serif",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sat",
+            "lang_name": "Santali",
+            "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular"
+        },
+        {
+            "lang": "sc",
+            "lang_name": "Sardinian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sc",
+            "lang_name": "Sardinian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sc",
+            "lang_name": "Sardinian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sco",
+            "lang_name": "Scots",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sco",
+            "lang_name": "Scots",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sco",
+            "lang_name": "Scots",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sd",
+            "lang_name": "Sindhi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sd",
+            "lang_name": "Sindhi",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "sd",
+            "lang_name": "Sindhi",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "se",
+            "lang_name": "Northern Sami",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "se",
+            "lang_name": "Northern Sami",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "se",
+            "lang_name": "Northern Sami",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sel",
+            "lang_name": "Selkup",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sel",
+            "lang_name": "Selkup",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sel",
+            "lang_name": "Selkup",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sg",
+            "lang_name": "Sango",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sg",
+            "lang_name": "Sango",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sg",
+            "lang_name": "Sango",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sh",
+            "lang_name": "Serbo-Croatian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sh",
+            "lang_name": "Serbo-Croatian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sh",
+            "lang_name": "Serbo-Croatian",
+            "alias": "monospace",
+            "file": "SourceCodePro-Regular.otf",
+            "family": "Source Code Pro",
+            "style": "Regular"
+        },
+        {
+            "lang": "shs",
+            "lang_name": "Shuswap",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "shs",
+            "lang_name": "Shuswap",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "shs",
+            "lang_name": "Shuswap",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "sans-serif",
+            "file": "NotoSansSinhala-VF.ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular"
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "serif",
+            "file": "NotoSansSinhala-VF.ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular"
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "monospace",
+            "file": "NotoSansSinhala-VF.ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular"
+        },
+        {
+            "lang": "sid",
+            "lang_name": "Sidamo",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "sid",
+            "lang_name": "Sidamo",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "sid",
+            "lang_name": "Sidamo",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sm",
+            "lang_name": "Samoan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sm",
+            "lang_name": "Samoan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sm",
+            "lang_name": "Samoan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sma",
+            "lang_name": "Southern Sami",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sma",
+            "lang_name": "Southern Sami",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sma",
+            "lang_name": "Southern Sami",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "smj",
+            "lang_name": "Lule Sami",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "smj",
+            "lang_name": "Lule Sami",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "smj",
+            "lang_name": "Lule Sami",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "smn",
+            "lang_name": "Inari Sami",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "smn",
+            "lang_name": "Inari Sami",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "smn",
+            "lang_name": "Inari Sami",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sms",
+            "lang_name": "Skolt Sami",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sms",
+            "lang_name": "Skolt Sami",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sms",
+            "lang_name": "Skolt Sami",
+            "alias": "monospace",
+            "file": "Montserrat-Regular.otf",
+            "family": "Montserrat",
+            "style": "Regular"
+        },
+        {
+            "lang": "sn",
+            "lang_name": "Shona",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sn",
+            "lang_name": "Shona",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sn",
+            "lang_name": "Shona",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "so",
+            "lang_name": "Somali",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "so",
+            "lang_name": "Somali",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "so",
+            "lang_name": "Somali",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ss",
+            "lang_name": "Swati",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ss",
+            "lang_name": "Swati",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ss",
+            "lang_name": "Swati",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "st",
+            "lang_name": "Southern Sotho",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "st",
+            "lang_name": "Southern Sotho",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "st",
+            "lang_name": "Southern Sotho",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "su",
+            "lang_name": "Sundanese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "su",
+            "lang_name": "Sundanese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "su",
+            "lang_name": "Sundanese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "sw",
+            "lang_name": "Swahili",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "sw",
+            "lang_name": "Swahili",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "sw",
+            "lang_name": "Swahili",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "syr",
+            "lang_name": "Syriac",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "syr",
+            "lang_name": "Syriac",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "syr",
+            "lang_name": "Syriac",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "sans-serif",
+            "file": "Lohit-Tamil.ttf",
+            "family": "Lohit Tamil",
+            "style": "Regular"
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "serif",
+            "file": "Lohit-Tamil.ttf",
+            "family": "Lohit Tamil",
+            "style": "Regular"
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "monospace",
+            "file": "Lohit-Tamil.ttf",
+            "family": "Lohit Tamil",
+            "style": "Regular"
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "sans-serif",
+            "file": "Lohit-Telugu.ttf",
+            "family": "Lohit Telugu",
+            "style": "Regular"
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "serif",
+            "file": "Lohit-Telugu.ttf",
+            "family": "Lohit Telugu",
+            "style": "Regular"
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "monospace",
+            "file": "Lohit-Telugu.ttf",
+            "family": "Lohit Telugu",
+            "style": "Regular"
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "monospace",
+            "file": "SourceCodePro-Regular.otf",
+            "family": "Source Code Pro",
+            "style": "Regular"
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "sans-serif",
+            "file": "Waree.otf",
+            "family": "Waree",
+            "style": "Regular"
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "serif",
+            "file": "Waree.otf",
+            "family": "Waree",
+            "style": "Regular"
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "monospace",
+            "file": "Waree.otf",
+            "family": "Waree",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_er",
+            "lang_name": "Tigrinya (Eritrea)",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_er",
+            "lang_name": "Tigrinya (Eritrea)",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_er",
+            "lang_name": "Tigrinya (Eritrea)",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_et",
+            "lang_name": "Tigrinya (Ethiopia)",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_et",
+            "lang_name": "Tigrinya (Ethiopia)",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "ti_et",
+            "lang_name": "Tigrinya (Ethiopia)",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "tig",
+            "lang_name": "Tigre",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "tig",
+            "lang_name": "Tigre",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "tig",
+            "lang_name": "Tigre",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "tk",
+            "lang_name": "Turkmen",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tk",
+            "lang_name": "Turkmen",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tk",
+            "lang_name": "Turkmen",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tl",
+            "lang_name": "Tagalog",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tl",
+            "lang_name": "Tagalog",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tl",
+            "lang_name": "Tagalog",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tn",
+            "lang_name": "Tswana",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tn",
+            "lang_name": "Tswana",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tn",
+            "lang_name": "Tswana",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "to",
+            "lang_name": "Tongan",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "to",
+            "lang_name": "Tongan",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "to",
+            "lang_name": "Tongan",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ts",
+            "lang_name": "Tsonga",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ts",
+            "lang_name": "Tsonga",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ts",
+            "lang_name": "Tsonga",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tt",
+            "lang_name": "Tatar",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tt",
+            "lang_name": "Tatar",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tt",
+            "lang_name": "Tatar",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tw",
+            "lang_name": "Twi",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tw",
+            "lang_name": "Twi",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tw",
+            "lang_name": "Twi",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ty",
+            "lang_name": "Tahitian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ty",
+            "lang_name": "Tahitian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ty",
+            "lang_name": "Tahitian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "tyv",
+            "lang_name": "Tuvinian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "tyv",
+            "lang_name": "Tuvinian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "tyv",
+            "lang_name": "Tuvinian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ug",
+            "lang_name": "Uyghur",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ug",
+            "lang_name": "Uyghur",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ug",
+            "lang_name": "Uyghur",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "und_zmth",
+            "lang_name": "",
+            "alias": "sans-serif",
+            "file": "STIX2Math.otf",
+            "family": "STIX",
+            "style": "Regular"
+        },
+        {
+            "lang": "und_zmth",
+            "lang_name": "",
+            "alias": "serif",
+            "file": "STIX2Math.otf",
+            "family": "STIX",
+            "style": "Regular"
+        },
+        {
+            "lang": "und_zmth",
+            "lang_name": "",
+            "alias": "monospace",
+            "file": "STIX2Math.otf",
+            "family": "STIX",
+            "style": "Regular"
+        },
+        {
+            "lang": "und_zsye",
+            "lang_name": "",
+            "alias": "sans-serif",
+            "file": "NotoColorEmoji.ttf",
+            "family": "Noto Color Emoji",
+            "style": "Regular"
+        },
+        {
+            "lang": "und_zsye",
+            "lang_name": "",
+            "alias": "serif",
+            "file": "NotoColorEmoji.ttf",
+            "family": "Noto Color Emoji",
+            "style": "Regular"
+        },
+        {
+            "lang": "und_zsye",
+            "lang_name": "",
+            "alias": "monospace",
+            "file": "NotoColorEmoji.ttf",
+            "family": "Noto Color Emoji",
+            "style": "Regular"
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "ve",
+            "lang_name": "Venda",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "ve",
+            "lang_name": "Venda",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "ve",
+            "lang_name": "Venda",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "monospace",
+            "file": "SourceCodePro-Regular.otf",
+            "family": "Source Code Pro",
+            "style": "Regular"
+        },
+        {
+            "lang": "vo",
+            "lang_name": "Volap\u00fck",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "vo",
+            "lang_name": "Volap\u00fck",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "vo",
+            "lang_name": "Volap\u00fck",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "vot",
+            "lang_name": "Votic",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "vot",
+            "lang_name": "Votic",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "vot",
+            "lang_name": "Votic",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "wa",
+            "lang_name": "Walloon",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "wa",
+            "lang_name": "Walloon",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "wa",
+            "lang_name": "Walloon",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "wal",
+            "lang_name": "Wolaytta",
+            "alias": "sans-serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "wal",
+            "lang_name": "Wolaytta",
+            "alias": "serif",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "wal",
+            "lang_name": "Wolaytta",
+            "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular"
+        },
+        {
+            "lang": "wen",
+            "lang_name": "Sorbian Languages",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "wen",
+            "lang_name": "Sorbian Languages",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "wen",
+            "lang_name": "Sorbian Languages",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "wo",
+            "lang_name": "Wolof",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "wo",
+            "lang_name": "Wolof",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "wo",
+            "lang_name": "Wolof",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "xh",
+            "lang_name": "Xhosa",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "xh",
+            "lang_name": "Xhosa",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "xh",
+            "lang_name": "Xhosa",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "yap",
+            "lang_name": "Yapese",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "yap",
+            "lang_name": "Yapese",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "yap",
+            "lang_name": "Yapese",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "yi",
+            "lang_name": "Yiddish",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "yi",
+            "lang_name": "Yiddish",
+            "alias": "serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "yi",
+            "lang_name": "Yiddish",
+            "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "yo",
+            "lang_name": "Yoruba",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "yo",
+            "lang_name": "Yoruba",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "yo",
+            "lang_name": "Yoruba",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "za",
+            "lang_name": "Zhuang",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "za",
+            "lang_name": "Zhuang",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "za",
+            "lang_name": "Zhuang",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        },
+        {
+            "lang": "zh_cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK HK",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK HK",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK HK",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK SC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-Regular.ttc",
+            "family": "Noto Serif CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zh_tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "monospace",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans Mono CJK TC",
+            "style": "Regular"
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "sans-serif",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book"
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "serif",
+            "file": "DejaVuSerif.ttf",
+            "family": "DejaVu Serif",
+            "style": "Book"
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "monospace",
+            "file": "DejaVuSansMono.ttf",
+            "family": "DejaVu Sans Mono",
+            "style": "Book"
+        }
+    ]
+}
