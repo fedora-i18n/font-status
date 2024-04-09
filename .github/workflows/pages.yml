@@ -87,9 +87,11 @@ jobs:
             echo "Unable to get supported releases for Fedora"
             exit 1
           fi
+          [ ! -d json ] && mkdir json
+          cd json
           for t in minimal; do
-            echo fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
-            fontquery -P fedora $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+            echo fontquery -P fedora $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
+            fontquery -P fedora $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
           done
           REL=""
           for i in ${{ steps.centos.outputs.releases }}; do
@@ -100,9 +102,21 @@ jobs:
             exit 1
           fi
           for t in minimal; do
-            echo fontquery -P centos $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
-            fontquery -P centos $REL -m html -t $t -f "{product}-{release}-{target}-${{ steps.date.outputs.date }}.{mode}"
+            echo fontquery -P centos $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
+            fontquery -P centos $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
           done
+          for f in *.json; do
+            echo fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/.html} $f
+            fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/-${{ steps.date.outputs.date }}.html} $f
+          done
+          cd ..
+      - name: Add/Update JSON to git
+        uses: EndBug/add-and-commit@v9
+        with:
+          id: commit
+          add: json
+          default_author: github_actions
+          tag: '${{ steps.date.outputs.date }} --force'
       - name: Build index
         run: |
           cp README.templ README.md
@@ -133,6 +147,7 @@ jobs:
           rm *-[0-9]*.html || :
           mv used/* .
           rmdir used
+        if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
