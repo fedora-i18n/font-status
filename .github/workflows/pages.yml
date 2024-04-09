@@ -110,6 +110,7 @@ jobs:
             echo fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/.html} $f
             fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/-${{ steps.date.outputs.date }}.html} $f
           done
+          mv json/*.html .
       - name: Add/Update JSON to git
         uses: EndBug/add-and-commit@v9
         id: commit
