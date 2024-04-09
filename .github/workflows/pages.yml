@@ -151,15 +151,12 @@ jobs:
         if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           retention-days: 14
-        if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
