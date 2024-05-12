@@ -2,7 +2,7 @@
     "id": "centos",
     "version_id": "10",
     "pattern": "minimal",
-    "fq_id": "20240322203904",
+    "fq_id": "20240510155142",
     "fonts": [
         {
             "lang": "af",
@@ -1658,6 +1658,30 @@
             "alias": "monospace",
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
+            "style": "Regular"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular"
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
             "style": "Regular"
         },
         {
