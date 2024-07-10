@@ -682,7 +682,7 @@
             "alias": "sans-serif",
             "file": "NotoSansHebrew[wght].ttf",
             "family": "Noto Sans Hebrew",
-            "style": "Regular"
+            "style": "Light"
         },
         {
             "lang": "he",
@@ -698,7 +698,7 @@
             "alias": "monospace",
             "file": "NotoSansHebrew[wght].ttf",
             "family": "Noto Sans Hebrew",
-            "style": "Regular"
+            "style": "Light"
         },
         {
             "lang": "hi",
