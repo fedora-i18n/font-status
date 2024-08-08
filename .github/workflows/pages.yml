@@ -8,6 +8,12 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Force to build page"
+        required: true
+        type: boolean
+        default: false
   schedule:
     - cron: '0 12 * * *'
 
@@ -154,7 +160,7 @@ jobs:
           mv used/* .
           rmdir used
           rm LICENSE || :
-        if: ${{ steps.commit.outputs.committed == 'true' }}
+        if: ${{ steps.commit.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
@@ -166,4 +172,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        if: ${{ steps.commit.outputs.committed == 'true' }}
+        if: ${{ steps.commit.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
