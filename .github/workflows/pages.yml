@@ -153,6 +153,7 @@ jobs:
           rm *-[0-9]*.html || :
           mv used/* .
           rmdir used
+          rm LICENSE || :
         if: ${{ steps.commit.outputs.committed == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
