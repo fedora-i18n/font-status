@@ -1,0 +1,38 @@
+name: "fontquery setup"
+description: "Run action for fontquery setup"
+author: "tagoh"
+
+inputs:
+  token:
+    description: 'A GitHub Token'
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+      - name: Checkout fontquery
+        id: fontquery
+        env:
+          GITHUB_TOKEN: ${{ inputs.token }}
+        run: |
+          FQRD=$(mktemp -d fontquery.XXXXXX)
+          git clone https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/fedora-i18n/fontquery ${FQRD}
+          echo "repodir=${FQRD}" >> $GITHUB_OUTPUT
+        shell: bash
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install fontquery
+        run: |
+          pip install build wheel
+          pushd ${{ steps.fontquery.outputs.repodir }}
+          python -m build
+          pip install dist/fontquery*.whl
+          popd
+          rm -rf ${{ steps.fontquery.outputs.repodir }}
+        shell: bash
+      - name: Install dependencies
+        run: sudo apt install podman buildah
+        shell: bash
