@@ -175,11 +175,13 @@ jobs:
           if_no_artifact_found: ignore
       - name: Copy old pages
         run: |
-          pushd github-pages
-          tar xvfa artifact.tar
-          cp -a *-[0-9]*.html ..
-          popd
-          rm -rf github-pages
+          if [ -d github-pages ]; then
+            pushd github-pages
+            tar xvfa artifact.tar
+            cp -a *-[0-9]*.html ..
+            popd
+            rm -rf github-pages
+          fi
       - name: Build pages
         run: |
           for f in json/*.json; do
