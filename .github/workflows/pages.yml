@@ -5,6 +5,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,12 +33,13 @@ env:
   KEEP_WEEK: 12
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  check_releases:
+    name: Check releases
     runs-on: ubuntu-latest
+    outputs:
+      fedora-matrix: ${{ steps.fedora.outputs.releases }}
+      centos-matrix: ${{ steps.centos.outputs.releases }}
+      date: ${{ steps.date.outputs.date }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,20 +49,6 @@ jobs:
         run: |
           git clone https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/fedora-i18n/fontquery
           cd fontquery
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-      - name: Install fontquery
-        run: |
-          pip install build wheel
-          pushd fontquery
-          python -m build
-          pip install dist/fontquery*.whl
-          popd
-      - name: Install dependencies
-        run: sudo apt install podman buildah curl
       - name: Get supported releases for Fedora
         id: fedora
         uses: ./fontquery/.github/actions/supported_releases
@@ -72,9 +60,119 @@ jobs:
       - name: Set date
         id: date
         run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
-      - name: Download artifact
+
+  iterate_gen_fedora_tables:
+    needs:
+      - check_releases
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        releases: ${{ fromJson(needs.check_releases.outputs.fedora-matrix) }}
+        target: ["minimal"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: setup for fontquery
+        uses: ./.github/actions/fqsetup
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build JSON
+        id: json
+        uses: ./.github/actions/build
+        with:
+          product: "fedora"
+          release: ${{ matrix.releases }}
+          target: ${{ matrix.target }}
+
+  iterate_gen_centos_tables:
+    needs:
+      - check_releases
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        releases: ${{ fromJson(needs.check_releases.outputs.centos-matrix) }}
+        target: ["minimal"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: setup for fontquery
+        uses: ./.github/actions/fqsetup
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build JSON
+        uses: ./.github/actions/build
+        with:
+          product: "centos"
+          release: ${{ matrix.releases }}
+          target: ${{ matrix.target }}
+
+  commit_changes:
+    needs:
+      - iterate_gen_fedora_tables
+      - iterate_gen_centos_tables
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    outputs:
+      comitted: ${{ steps.commit.outputs.comitted }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set date
+        id: date
+        run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
+      - name: Download results in matrix
         uses: dawidd6/action-download-artifact@v3
         with:
+          name: "output-*"
+          name_is_regexp: true
+          if_no_artifact_found: fail
+      - name: Update JSON
+        run: |
+          for f in output-*/*.json; do
+            mv $f json
+          done
+          rm -rf output-*
+      - name: Add/Update JSON to git
+        uses: EndBug/add-and-commit@v9
+        id: commit
+        with:
+          add: json
+          default_author: github_actions
+          tag: '${{ steps.date.outputs.date }} --force'
+          tag_push: '--force'
+
+  # Single deploy job since we're just deploying
+  deploy:
+    needs:
+      - check_releases
+      - commit_changes
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Normalize supported releases for Fedora
+        id: fedora
+        run: |
+          echo ${{ needs.check_releases.outputs.fedora-matrix }} | sed -e 's/\[//' -e 's/\]//' -e 's/,/ /g' -e -e 's/"//g' >> $GITHUB_OUTPUT
+      - name: Normalize supported releases for CentOS
+        id: centos
+        run: |
+          echo ${{ needs.check_releases.outputs.centos-matrix }} | sed -e 's/\[//' -e 's/\]//' -e 's/,/ /g' -e -e 's/"//g' >> $GITHUB_OUTPUT
+      - name: Set date
+        id: date
+        run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
+      - name: Download artifacts
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          name: github-pages
           if_no_artifact_found: ignore
       - name: Copy old pages
         run: |
@@ -85,50 +183,15 @@ jobs:
           rm -rf github-pages
       - name: Build pages
         run: |
-          REL=""
-          for i in ${{ steps.fedora.outputs.releases }}; do
-            REL="$REL -r $i"
-          done
-          if [ -z "$REL" ]; then
-            echo "Unable to get supported releases for Fedora"
-            exit 1
-          fi
-          [ ! -d json ] && mkdir json
-          cd json
-          for t in minimal; do
-            echo fontquery -P fedora $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
-            fontquery -P fedora $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
-          done
-          REL=""
-          for i in ${{ steps.centos.outputs.releases }}; do
-            REL="$REL -r $i"
-          done
-          if [ -z "$REL" ]; then
-            echo "Unable to get supported releases for CentOS"
-            exit 1
-          fi
-          for t in minimal; do
-            echo fontquery -P centos $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
-            fontquery -P centos $REL -m json -t $t -f "{product}-{release}-{target}.{mode}"
-          done
-          cd ..
           for f in json/*.json; do
             echo fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/.html} $f
             fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/-${{ steps.date.outputs.date }}.html} $f
           done
           mv json/*.html .
-      - name: Add/Update JSON to git
-        uses: EndBug/add-and-commit@v9
-        id: commit
-        with:
-          add: json
-          default_author: github_actions
-          tag: '${{ steps.date.outputs.date }} --force'
-          tag_push: '--force'
       - name: clean up not-updated html files
         run: |
           rm *-${{ steps.date.outputs.date }}.html
-        if: ${{ steps.commit.outputs.committed == 'false' }}
+        if: ${{ needs.commit_changes.outputs.committed == 'false' }}
       - name: Build index
         run: |
           cp README.templ README.md
@@ -160,7 +223,7 @@ jobs:
           mv used/* .
           rmdir used
           rm LICENSE || :
-        if: ${{ steps.commit.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
+        if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
@@ -172,4 +235,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        if: ${{ steps.commit.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
+        if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}

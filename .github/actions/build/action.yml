@@ -1,0 +1,42 @@
+name: "font-status action"
+description: "Run actions for font-status to build a status in JSON"
+author: "tagoh"
+inputs:
+  product:
+    description: "Product name to build"
+    required: true
+  release:
+    description: "Release number/name to build; space-separated array list"
+    required: true
+  target:
+    description: "Target name to build"
+    required: true
+outputs:
+  artifact-id:
+    description: "An artifact ID for uploaded JSON file"
+    value: ${{ steps.upload.outputs.artifact-id }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Build JSON
+      id: json
+      run: |
+        REL=""
+        for i in ${{ inputs.release }}; do
+          REL="$REL -r $i"
+        done
+        OUT=$(mktemp -d fsout.XXXXXX)
+        echo "path=${OUT}" >> $GITHUB_OUTPUT
+        echo cd $OUT
+        cd $OUT
+        echo fontquery -P ${{ inputs.product }} $REL -m json -t ${{ inputs.target }} -f "{product}-{release}-{target}.{mode}"
+        fontquery -P ${{ inputs.product }} $REL -m json -t ${{ inputs.target }} -f "{product}-{release}-{target}.{mode}"
+      shell: bash
+    - name: Upload JSON
+      id: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: output-${{ inputs.product }}-${{ inputs.target }}-${{ inputs.release }}
+        path: ${{ steps.json.outputs.path }}
+        if-no-files-found: error
