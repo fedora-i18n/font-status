@@ -129,6 +129,7 @@ jobs:
         with:
           name: "output-*"
           name_is_regexp: true
+          run_id: ${{ github.event.workflow_run.id }}
           if_no_artifact_found: fail
       - name: Update JSON
         run: |
