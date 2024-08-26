@@ -157,6 +157,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: fontquery setup
+        uses: ./.github/actions/fqsetup
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Normalize supported releases for Fedora
         id: fedora
         run: |
