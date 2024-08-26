@@ -115,7 +115,6 @@ jobs:
       - iterate_gen_fedora_tables
       - iterate_gen_centos_tables
     runs-on: ubuntu-latest
-    continue-on-error: true
     outputs:
       comitted: ${{ steps.commit.outputs.comitted }}
     steps:
@@ -129,7 +128,7 @@ jobs:
         with:
           name: "output-*"
           name_is_regexp: true
-          run_id: ${{ github.event.workflow_run.id }}
+          run_id: ${{ github.run_id }}
           if_no_artifact_found: fail
       - name: Update JSON
         run: |
