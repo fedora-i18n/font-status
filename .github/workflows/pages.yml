@@ -161,11 +161,11 @@ jobs:
       - name: Normalize supported releases for Fedora
         id: fedora
         run: |
-          echo ${{ needs.check_releases.outputs.fedora-matrix }} | sed -e 's/\[//' -e 's/\]//' -e 's/,/ /g' -e -e 's/"//g' >> $GITHUB_OUTPUT
+          echo ${{ needs.check_releases.outputs.fedora-matrix }} | sed -e 's/\[/releases=/' -e 's/\]//' -e 's/,/ /g' -e 's/"//g' >> $GITHUB_OUTPUT
       - name: Normalize supported releases for CentOS
         id: centos
         run: |
-          echo ${{ needs.check_releases.outputs.centos-matrix }} | sed -e 's/\[//' -e 's/\]//' -e 's/,/ /g' -e -e 's/"//g' >> $GITHUB_OUTPUT
+          echo ${{ needs.check_releases.outputs.centos-matrix }} | sed -e 's/\[/releases=/' -e 's/\]//' -e 's/,/ /g' -e 's/"//g' >> $GITHUB_OUTPUT
       - name: Set date
         id: date
         run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
