@@ -26,6 +26,7 @@ runs:
           cache: 'pip'
       - name: Install fontquery
         run: |
+          pip install --upgrade pip
           pip install build wheel
           pushd ${{ steps.fontquery.outputs.repodir }}
           python -m build
