@@ -1424,7 +1424,7 @@
             "file": "NotoNaskhArabic[wght].ttf",
             "family": "Noto Naskh Arabic",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "pa-pk",
@@ -1901,7 +1901,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-cn",
@@ -1910,7 +1910,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-cn",
@@ -1919,7 +1919,7 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-hk",
@@ -1928,7 +1928,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-hk",
@@ -1937,7 +1937,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-hk",
@@ -1946,7 +1946,7 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
@@ -2009,7 +2009,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK TC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-tw",
@@ -2018,7 +2018,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK TC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-tw",
@@ -2027,7 +2027,7 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK TC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         }
     ]
 }
