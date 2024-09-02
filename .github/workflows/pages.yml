@@ -206,7 +206,7 @@ jobs:
       - name: clean up not-updated html files
         run: |
           rm *-${{ steps.date.outputs.date }}.html
-        if: ${{ needs.commit_changes.outputs.committed == 'false' }}
+        if: ${{ needs.commit_changes.outputs.committed == 'false' && github.event.inputs.force == 'false' }}
       - name: Build index
         run: |
           cp README.templ README.md
