@@ -116,7 +116,7 @@ jobs:
       - iterate_gen_centos_tables
     runs-on: ubuntu-latest
     outputs:
-      comitted: ${{ steps.commit.outputs.comitted }}
+      committed: ${{ steps.commit.outputs.committed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
