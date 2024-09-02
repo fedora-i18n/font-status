@@ -659,7 +659,7 @@
             "file": "Jomolhari-alpha3c-0605331.ttf",
             "family": "Jomolhari",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "bo",
@@ -668,7 +668,7 @@
             "file": "Jomolhari-alpha3c-0605331.ttf",
             "family": "Jomolhari",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "bo",
@@ -677,7 +677,7 @@
             "file": "Jomolhari-alpha3c-0605331.ttf",
             "family": "Jomolhari",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "br",
@@ -2360,7 +2360,7 @@
             "file": "NuosuSIL-Regular.ttf",
             "family": "Nuosu SIL",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "ii",
@@ -2369,7 +2369,7 @@
             "file": "NuosuSIL-Regular.ttf",
             "family": "Nuosu SIL",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "ii",
@@ -2378,7 +2378,7 @@
             "file": "NuosuSIL-Regular.ttf",
             "family": "Nuosu SIL",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "ik",
@@ -3791,7 +3791,7 @@
             "file": "Padauk-Regular.ttf",
             "family": "Padauk",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "my",
@@ -3800,7 +3800,7 @@
             "file": "Padauk-Regular.ttf",
             "family": "Padauk",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "my",
@@ -3809,7 +3809,7 @@
             "file": "Padauk-Regular.ttf",
             "family": "Padauk",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "na",
@@ -5060,7 +5060,7 @@
             "file": "NotoSansSinhala-VF.ttf",
             "family": "Noto Sans Sinhala",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "si",
@@ -5069,7 +5069,7 @@
             "file": "NotoSansSinhala-VF.ttf",
             "family": "Noto Sans Sinhala",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "si",
@@ -5078,7 +5078,7 @@
             "file": "NotoSansSinhala-VF.ttf",
             "family": "Noto Sans Sinhala",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "sid",
