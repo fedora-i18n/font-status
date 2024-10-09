@@ -1955,7 +1955,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
@@ -1964,7 +1964,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
@@ -1973,7 +1973,7 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
@@ -1982,7 +1982,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
@@ -1991,7 +1991,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
@@ -2000,7 +2000,7 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-tw",
