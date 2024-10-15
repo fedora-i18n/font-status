@@ -166,6 +166,7 @@ jobs:
           release: ${{ matrix.releases }}
           target: ${{ matrix.target }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          max_count: ${{ env.KEEP_WEEK }}
 
   iterate_gen_centos_html:
     needs:

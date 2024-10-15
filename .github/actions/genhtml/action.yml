@@ -17,6 +17,9 @@ inputs:
   target:
     description: "A target name of the release of the product"
     required: true
+  max_count:
+    description: "A number of history to generate"
+    default: '5'
 outputs:
   artifact-id:
     description: "A artifact ID for uploaded HTML file"
@@ -37,6 +40,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         target: json/${{ inputs.product }}-${{ matrix.releases }}-${{ matrix.target }}.json
+        max_count: ${{ inputs.max_count }}
     - name: Normalize a tag list
       id: norm_tags
       run: |
