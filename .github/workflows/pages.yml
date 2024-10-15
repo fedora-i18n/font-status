@@ -214,6 +214,7 @@ jobs:
       - name: Prepare HTML files
         run: |
           for f in output-html-*/*.html; do
+            echo mv $f .
             mv $f .
           done
           rm -rf output-html-*
@@ -260,6 +261,10 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          retention-days: 14
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
