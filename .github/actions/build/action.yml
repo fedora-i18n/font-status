@@ -37,6 +37,6 @@ runs:
       id: upload
       uses: actions/upload-artifact@v4
       with:
-        name: output-${{ inputs.product }}-${{ inputs.target }}-${{ inputs.release }}
+        name: output-json-${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}
         path: ${{ steps.json.outputs.path }}
         if-no-files-found: error

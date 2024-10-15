@@ -126,7 +126,7 @@ jobs:
       - name: Download results in matrix
         uses: dawidd6/action-download-artifact@v3
         with:
-          name: "output-*"
+          name: "output-json-*"
           name_is_regexp: true
           run_id: ${{ github.run_id }}
           if_no_artifact_found: fail
@@ -145,22 +145,78 @@ jobs:
           tag: '${{ steps.date.outputs.date }} --force'
           tag_push: '--force'
 
+  iterate_gen_fedora_html:
+    needs:
+      - check_releases
+      - iterate_gen_fedora_tables
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        releases: ${{ fromJson(needs.check_releases.outputs.fedora-matrix) }}
+        target: ["minimal"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build HTML
+        id: html
+        uses: ./.github/actions/genhtml
+        with:
+          product: "fedora"
+          release: ${{ matrix.releases }}
+          target: ${{ matrix.target }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  iterate_gen_centos_html:
+    needs:
+      - check_releases
+      - iterate_gen_centos_tables
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        releases: ${{ fromJson(needs.check_releases.outputs.centos-matrix) }}
+        target: ["minimal"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build HTML
+        id: html
+        uses: ./.github/actions/genhtml
+        with:
+          product: "centos"
+          release: ${{ matrix.releases }}
+          target: ${{ matrix.target }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
   # Single deploy job since we're just deploying
   deploy:
     needs:
       - check_releases
       - commit_changes
+      - iterate_gen_fedora_html
+      - iterate_gen_centos_html
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: fontquery setup
-        uses: ./.github/actions/fqsetup
+      - name: Download HTML files in matrix
+        uses: dawidd6/action-download-artifact@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          name: "output-html-*"
+          name_is_regexp: true
+          run_id: ${{ github.run_id }}
+          if_no_artifact_found: fail
+      - name: Prepare HTML files
+        run: |
+          for f in output-html-*/*.html; do
+            mv $f .
+          done
+          rm -rf output-html-*
       - name: Normalize supported releases for Fedora
         id: fedora
         run: |
@@ -169,44 +225,6 @@ jobs:
         id: centos
         run: |
           echo ${{ needs.check_releases.outputs.centos-matrix }} | sed -e 's/\[/releases=/' -e 's/\]//' -e 's/,/ /g' -e 's/"//g' >> $GITHUB_OUTPUT
-      - name: Set date
-        id: date
-        run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
-      - name: Download artifacts
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          name: github-pages
-          if_no_artifact_found: ignore
-      - name: Copy old pages
-        run: |
-          if [ ! -d github-pages ]; then
-            mkdir github-pages
-          fi
-          pushd github-pages
-          if [ -f artifact.tar ]; then
-            TARFILE=./artifact.tar
-          elif [ -f ../artifact.tar ]; then
-            TARFILE=../artifact.tar
-          else
-            TARFILE=
-          fi
-          if [ -n "$TARFILE" ]; then
-            tar xvfa $TARFILE
-            cp -a *-[0-9]*.html ..
-          fi
-          popd
-          rm -rf github-pages
-      - name: Build pages
-        run: |
-          for f in json/*.json; do
-            echo fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/.html} $f
-            fq2html -t "{product} {release}: {target}" -R html -o ${f/.json/-${{ steps.date.outputs.date }}.html} $f
-          done
-          mv json/*.html .
-      - name: clean up not-updated html files
-        run: |
-          rm *-${{ steps.date.outputs.date }}.html
-        if: ${{ needs.commit_changes.outputs.committed == 'false' && github.event.inputs.force == 'false' }}
       - name: Build index
         run: |
           cp README.templ README.md
@@ -238,16 +256,10 @@ jobs:
           mv used/* .
           rmdir used
           rm LICENSE || :
-        if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          retention-days: 14
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
