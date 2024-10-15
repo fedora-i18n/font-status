@@ -1,0 +1,69 @@
+name: "Generate HTML"
+description: "Generate HTML from JSON in Git"
+author: "tagoh"
+inputs:
+  token:
+    description: "A GitHub token"
+    default: ''
+  repository:
+    description: "A Git repository"
+    default: ''
+  product:
+    description: "A product name"
+    required: true
+  release:
+    description: "A release name of the product"
+    required: true
+  target:
+    description: "A target name of the release of the product"
+    required: true
+outputs:
+  artifact-id:
+    description: "A artifact ID for uploaded HTML file"
+    value: ${{ steps.upload.outputs.artifact-id }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: fontquery setup
+      uses: ./.github/actions/fqsetup
+      with:
+        token: ${{ inputs.token }}
+    - name: Obtain a list of git tag
+      id: tags
+      uses: ./.github/actions/taglist
+      with:
+        token: ${{ inputs.token }}
+        target: json/${{ inputs.product }}-${{ matrix.releases }}-${{ matrix.target }}.json
+    - name: Normalize a tag list
+      id: norm_tags
+      run: |
+        echo ${{ steps.tags.outputs.tags }} | sed -e 's/\[/tags=/' -e 's/\]//' -e 's/,/ /g' -e 's/"//g' >> $GITHUB_OUTPUT
+      shell: bash
+    - name: Build HTML
+      id: html
+      run: |
+        OUT=$(mktemp -d genhtml.XXXXXX)
+        echo "path=${OUT}" >> $GITHUB_OUTPUT
+        echo git clone https://github.com/fedora-i18n/font-status branches
+        git clone https://github.com/fedora-i18n/font-status branches
+        echo cd branches
+        cd branches
+        for i in ${{ steps.norm_tags.outputs.tags }}; do
+          echo git switch --detach $i
+          git switch --detach $i
+          echo fq2html -t "{product} {release}: {target}" -R html -o ../$OUT/${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}-$i.html json/${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}.json
+          fq2html -t "{product} {release}: {target}" -R html -o ../$OUT/${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}-$i.html json/${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}.json
+        done
+        cd ..
+        rm -rf branches
+      shell: bash
+    - name: Upload HTML
+      id: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: output-html-${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}
+        path: ${{ steps.html.outputs.path }}
+        if-no-files-found: error

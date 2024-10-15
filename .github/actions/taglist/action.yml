@@ -1,0 +1,35 @@
+name: "git tag list"
+description: "Obtain a list of git tag"
+author: "tagoh"
+inputs:
+  token:
+    description: "A GitHub Token"
+    default: ''
+  repository:
+    description: "A Git repository"
+    default: ''
+  target:
+    description: "A file to check a list of tags"
+    required: true
+  max_count:
+    description: "A number of tags to output"
+    default: '5'
+outputs:
+  tags:
+    description: "A list of git tags"
+    value: ${{ steps.tags.outputs.value }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout git repo
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ inputs.repository }}
+        token: ${{ inputs.token }}
+        fetch-depth: 0
+    - name: Obtain a list of tags associated with a file
+      id: tags
+      run: |
+        git rev-list -${{ inputs.max_count }} HEAD -- ${{ inputs.target }} | xargs git describe --tags --always | grep -E "^[0-9]{8}$" | awk 'BEGIN{S="value=["}{S=sprintf("%s\"%s\",",S,$0)}END{print S}' | sed -e 's/,$/]/' >> $GITHUB_OUTPUT
+      shell: bash
