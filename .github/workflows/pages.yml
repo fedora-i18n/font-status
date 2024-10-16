@@ -246,7 +246,7 @@ jobs:
           echo "### CentOS" >> README.md
           echo "" >> README.md
           for i in ${{ steps.centos.outputs.releases }}; do
-            echo -n "* $i \[" >> README.md
+            echo -n "* $i \[ " >> README.md
             for f in $(ls -1r centos-$i*.html|head -${{ env.KEEP_WEEK }}); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
