@@ -205,6 +205,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Download HTML files in matrix
         uses: dawidd6/action-download-artifact@v3
         with:
@@ -239,7 +241,7 @@ jobs:
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
               r=$(git rev-list -1 $d)
-              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r) " >> README.md
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)<sub>[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r)</sub> " >> README.md
             done
             echo "\]" >> README.md
           done
@@ -252,7 +254,7 @@ jobs:
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
               r=$(git rev-list -1 $d)
-              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r) " >> README.md
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)<sub>[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r)</sub> " >> README.md
             done
             echo "\]" >> README.md
           done
