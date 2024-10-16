@@ -148,7 +148,7 @@ jobs:
   iterate_gen_fedora_html:
     needs:
       - check_releases
-      - iterate_gen_fedora_tables
+      - commit_changes
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -171,7 +171,7 @@ jobs:
   iterate_gen_centos_html:
     needs:
       - check_releases
-      - iterate_gen_centos_tables
+      - commit_changes
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -238,7 +238,8 @@ jobs:
             for f in $(ls -1r fedora-$i*.html|head -${{ env.KEEP_WEEK }}); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
-              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
+              r=$(git rev-list -1 $d)
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r) " >> README.md
             done
             echo "\]" >> README.md
           done
@@ -250,7 +251,8 @@ jobs:
             for f in $(ls -1r centos-$i*.html|head -${{ env.KEEP_WEEK }}); do
               d=$(echo $f|sed -e 's/.*-\([0-9]*\).html/\1/')
               mv $f used
-              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f) " >> README.md
+              r=$(git rev-list -1 $d)
+              echo -n "[$d](https://fedora-i18n.github.io/font-status/$f)[&#x224f](https://github.com/fedora-i18n/font-status/commit/$r) " >> README.md
             done
             echo "\]" >> README.md
           done
