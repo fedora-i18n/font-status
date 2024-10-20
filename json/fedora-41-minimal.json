@@ -1031,33 +1031,6 @@
             "is_default": 1
         },
         {
-            "lang": "kab",
-            "lang_name": "Kabyle",
-            "alias": "sans-serif",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
-            "style": "Regular",
-            "is_default": 2
-        },
-        {
-            "lang": "kab",
-            "lang_name": "Kabyle",
-            "alias": "serif",
-            "file": "NotoSerif[wght].ttf",
-            "family": "Noto Serif",
-            "style": "Regular",
-            "is_default": 2
-        },
-        {
-            "lang": "kab",
-            "lang_name": "Kabyle",
-            "alias": "monospace",
-            "file": "NotoSansMono[wght].ttf",
-            "family": "Noto Sans Mono",
-            "style": "Regular",
-            "is_default": 2
-        },
-        {
             "lang": "kk",
             "lang_name": "Kazakh",
             "alias": "sans-serif",
