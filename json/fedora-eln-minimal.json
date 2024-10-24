@@ -1442,7 +1442,7 @@
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "pa-pk",
@@ -1874,7 +1874,7 @@
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "ur",
