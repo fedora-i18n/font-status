@@ -1232,10 +1232,10 @@
             "lang": "ml",
             "lang_name": "Malayalam",
             "alias": "serif",
-            "file": "RIT-MeeraNew.otf",
-            "family": "RIT Meera New",
+            "file": "RIT-Rachana-Regular.otf",
+            "family": "RIT Rachana",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 1
         },
         {
             "lang": "ml",
