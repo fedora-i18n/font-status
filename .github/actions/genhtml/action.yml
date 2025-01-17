@@ -41,6 +41,7 @@ runs:
         token: ${{ inputs.token }}
         target: json/${{ inputs.product }}-${{ matrix.releases }}-${{ matrix.target }}.json
         max_count: ${{ inputs.max_count }}
+        ref: 'main'
     - name: Normalize a tag list
       id: norm_tags
       run: |

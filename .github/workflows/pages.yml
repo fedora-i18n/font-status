@@ -158,8 +158,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: 'main'
       - name: Build HTML
         id: html
         uses: ./.github/actions/genhtml
@@ -183,8 +181,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: 'main'
       - name: Build HTML
         id: html
         uses: ./.github/actions/genhtml

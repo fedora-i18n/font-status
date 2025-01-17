@@ -14,6 +14,9 @@ inputs:
   max_count:
     description: "A number of tags to output"
     default: '5'
+  ref:
+    description: "The branch, tag or SHA to checkout"
+    default: ''
 outputs:
   tags:
     description: "A list of git tags"
@@ -28,6 +31,7 @@ runs:
         repository: ${{ inputs.repository }}
         token: ${{ inputs.token }}
         fetch-depth: 0
+        ref: ${{ inputs.ref }}
     - name: Obtain a list of tags associated with a file
       id: tags
       run: |
