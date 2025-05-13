@@ -1,0 +1,2087 @@
+{
+    "id": "centos",
+    "version_id": "10",
+    "pattern": "minimal",
+    "fq_id": "20240510155142",
+    "fonts": [
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "sans-serif",
+            "file": "NotoSansEthiopic[wght].ttf",
+            "family": "Noto Sans Ethiopic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "serif",
+            "file": "NotoSerifEthiopic[wght].ttf",
+            "family": "Noto Serif Ethiopic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "monospace",
+            "file": "NotoSansEthiopic[wght].ttf",
+            "family": "Noto Sans Ethiopic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "sans-serif",
+            "file": "NotoSansArabic[wght].ttf",
+            "family": "Noto Sans Arabic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "serif",
+            "file": "NotoNaskhArabic[wght].ttf",
+            "family": "Noto Naskh Arabic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "monospace",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "sans-serif",
+            "file": "NotoSansBengali[wght].ttf",
+            "family": "Noto Sans Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "serif",
+            "file": "NotoSerifBengali[wght].ttf",
+            "family": "Noto Serif Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "monospace",
+            "file": "NotoSansBengali[wght].ttf",
+            "family": "Noto Sans Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "sans-serif",
+            "file": "NotoSansBengali[wght].ttf",
+            "family": "Noto Sans Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "serif",
+            "file": "NotoSerifBengali[wght].ttf",
+            "family": "Noto Serif Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "monospace",
+            "file": "NotoSansBengali[wght].ttf",
+            "family": "Noto Sans Bengali",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "sans-serif",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "serif",
+            "file": "NotoNaskhArabic[wght].ttf",
+            "family": "Noto Naskh Arabic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "monospace",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "sans-serif",
+            "file": "NotoSansGujarati[wght].ttf",
+            "family": "Noto Sans Gujarati",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "serif",
+            "file": "NotoSerifGujarati[wght].ttf",
+            "family": "Noto Serif Gujarati",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "monospace",
+            "file": "NotoSansGujarati[wght].ttf",
+            "family": "Noto Sans Gujarati",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "sans-serif",
+            "file": "NotoSansHebrew[wght].ttf",
+            "family": "Noto Sans Hebrew",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "serif",
+            "file": "NotoSerifHebrew[wght].ttf",
+            "family": "Noto Serif Hebrew",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "monospace",
+            "file": "NotoSansHebrew[wght].ttf",
+            "family": "Noto Sans Hebrew",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "sans-serif",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "serif",
+            "file": "NotoSerifDevanagari[wght].ttf",
+            "family": "Noto Serif Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "monospace",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK JP",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK JP",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK JP",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "sans-serif",
+            "file": "NotoSansGeorgian[wght].ttf",
+            "family": "Noto Sans Georgian",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "serif",
+            "file": "NotoSerifGeorgian[wght].ttf",
+            "family": "Noto Serif Georgian",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "monospace",
+            "file": "NotoSansGeorgian[wght].ttf",
+            "family": "Noto Sans Georgian",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "sans-serif",
+            "file": "NotoSansKhmer[wght].ttf",
+            "family": "Noto Sans Khmer",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "serif",
+            "file": "NotoSerifKhmer[wght].ttf",
+            "family": "Noto Serif Khmer",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "monospace",
+            "file": "NotoSansKhmer[wght].ttf",
+            "family": "Noto Sans Khmer",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "sans-serif",
+            "file": "NotoSansKannada[wght].ttf",
+            "family": "Noto Sans Kannada",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "serif",
+            "file": "NotoSerifKannada[wght].ttf",
+            "family": "Noto Serif Kannada",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "monospace",
+            "file": "NotoSansKannada[wght].ttf",
+            "family": "Noto Sans Kannada",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK KR",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK KR",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK KR",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "sans-serif",
+            "file": "RIT-MeeraNew.otf",
+            "family": "RIT Meera New",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "serif",
+            "file": "RIT-Rachana-Regular.otf",
+            "family": "RIT Rachana",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "monospace",
+            "file": "RIT-MeeraNew.otf",
+            "family": "RIT Meera New",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "sans-serif",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "serif",
+            "file": "NotoSerifDevanagari[wght].ttf",
+            "family": "Noto Serif Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "monospace",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "sans-serif",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "serif",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "monospace",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "sans-serif",
+            "file": "NotoSansOriya[wght].ttf",
+            "family": "Noto Sans Oriya",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "serif",
+            "file": "NotoSerifOriya[wght].ttf",
+            "family": "Noto Serif Oriya",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "monospace",
+            "file": "NotoSansOriya[wght].ttf",
+            "family": "Noto Sans Oriya",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "serif",
+            "file": "NotoNaskhArabic[wght].ttf",
+            "family": "Noto Naskh Arabic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "monospace",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "sans-serif",
+            "file": "NotoSansSinhala[wght].ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "serif",
+            "file": "NotoSerifSinhala[wght].ttf",
+            "family": "Noto Serif Sinhala",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "monospace",
+            "file": "NotoSansSinhala[wght].ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "sans-serif",
+            "file": "NotoSansTamil[wght].ttf",
+            "family": "Noto Sans Tamil",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "serif",
+            "file": "NotoSerifTamil[wght].ttf",
+            "family": "Noto Serif Tamil",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "monospace",
+            "file": "NotoSansTamil[wght].ttf",
+            "family": "Noto Sans Tamil",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "sans-serif",
+            "file": "NotoSansTelugu[wght].ttf",
+            "family": "Noto Sans Telugu",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "serif",
+            "file": "NotoSerifTelugu[wght].ttf",
+            "family": "Noto Serif Telugu",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "monospace",
+            "file": "NotoSansTelugu[wght].ttf",
+            "family": "Noto Sans Telugu",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "sans-serif",
+            "file": "NotoSansThai[wght].ttf",
+            "family": "Noto Sans Thai",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "serif",
+            "file": "NotoSerifThai[wght].ttf",
+            "family": "Noto Serif Thai",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "monospace",
+            "file": "NotoSansThai[wght].ttf",
+            "family": "Noto Sans Thai",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "sans-serif",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "serif",
+            "file": "NotoNaskhArabic[wght].ttf",
+            "family": "Noto Naskh Arabic",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "monospace",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK SC",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK SC",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK SC",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK HK",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK HK",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK HK",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK HK",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK HK",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK HK",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK SC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK SC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK SC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh-tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "sans-serif",
+            "file": "NotoSansCJK-VF.ttc",
+            "family": "Noto Sans CJK TC",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "serif",
+            "file": "NotoSerifCJK-VF.ttc",
+            "family": "Noto Serif CJK TC",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "zh-tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "monospace",
+            "file": "NotoSansMonoCJK-VF.ttc",
+            "family": "Noto Sans Mono CJK TC",
+            "style": "Regular",
+            "is_default": 1
+        }
+    ]
+}
