@@ -1517,33 +1517,6 @@
             "is_default": 1
         },
         {
-            "lang": "ro",
-            "lang_name": "Romanian",
-            "alias": "sans-serif",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
-            "style": "Regular",
-            "is_default": 1
-        },
-        {
-            "lang": "ro",
-            "lang_name": "Romanian",
-            "alias": "serif",
-            "file": "NotoSerif[wght].ttf",
-            "family": "Noto Serif",
-            "style": "Regular",
-            "is_default": 1
-        },
-        {
-            "lang": "ro",
-            "lang_name": "Romanian",
-            "alias": "monospace",
-            "file": "NotoSansMono[wght].ttf",
-            "family": "Noto Sans Mono",
-            "style": "Regular",
-            "is_default": 1
-        },
-        {
             "lang": "ru",
             "lang_name": "Russian",
             "alias": "sans-serif",
