@@ -80,10 +80,10 @@
             "lang": "ar",
             "lang_name": "Arabic",
             "alias": "monospace",
-            "file": "NotoSansArabic[wght].ttf",
-            "family": "Noto Sans Arabic",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "as",
@@ -539,10 +539,10 @@
             "lang": "fa",
             "lang_name": "Persian",
             "alias": "monospace",
-            "file": "NotoSansArabic[wght].ttf",
-            "family": "Noto Sans Arabic",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "fi",
@@ -1457,8 +1457,8 @@
             "lang": "pa-pk",
             "lang_name": "Punjabi (Pakistan)",
             "alias": "monospace",
-            "file": "NotoSansArabic[wght].ttf",
-            "family": "Noto Sans Arabic",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
             "style": "Regular",
             "is_default": 2
         },
@@ -1889,8 +1889,8 @@
             "lang": "ur",
             "lang_name": "Urdu",
             "alias": "monospace",
-            "file": "NotoSansArabic[wght].ttf",
-            "family": "Noto Sans Arabic",
+            "file": "Vazirmatn[wght].ttf",
+            "family": "Vazirmatn",
             "style": "Regular",
             "is_default": 2
         },
