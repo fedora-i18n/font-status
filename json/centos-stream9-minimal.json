@@ -1334,7 +1334,7 @@
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "en",
@@ -1343,7 +1343,7 @@
             "file": "DejaVuSerif.ttf",
             "family": "DejaVu Serif",
             "style": "Book",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "en",
@@ -1352,7 +1352,7 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "eo",
