@@ -83,7 +83,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "as",
@@ -1460,7 +1460,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "pl",
@@ -1892,7 +1892,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "vi",
