@@ -1,6 +1,6 @@
 {
     "id": "fedora",
-    "version_id": "44",
+    "version_id": "43",
     "pattern": "minimal",
     "fq_id": "20240510155142",
     "fonts": [
@@ -83,7 +83,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "as",
@@ -1460,7 +1460,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "pl",
@@ -1892,7 +1892,7 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 1
+            "is_default": 2
         },
         {
             "lang": "vi",
