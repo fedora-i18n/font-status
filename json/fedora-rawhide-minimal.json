@@ -1166,6 +1166,33 @@
             "is_default": 1
         },
         {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "lt",
             "lang_name": "Lithuanian",
             "alias": "sans-serif",
