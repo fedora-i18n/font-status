@@ -32,6 +32,15 @@
             "is_default": 2
         },
         {
+            "lang": "aa",
+            "lang_name": "Afar",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ab",
             "lang_name": "Abkhazian",
             "alias": "sans-serif",
@@ -53,6 +62,15 @@
             "lang": "ab",
             "lang_name": "Abkhazian",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ab",
+            "lang_name": "Abkhazian",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -86,6 +104,15 @@
             "is_default": 2
         },
         {
+            "lang": "af",
+            "lang_name": "Afrikaans",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "ak",
             "lang_name": "Akan",
             "alias": "sans-serif",
@@ -113,6 +140,15 @@
             "is_default": 2
         },
         {
+            "lang": "ak",
+            "lang_name": "Akan",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "am",
             "lang_name": "Amharic",
             "alias": "sans-serif",
@@ -134,6 +170,15 @@
             "lang": "am",
             "lang_name": "Amharic",
             "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "am",
+            "lang_name": "Amharic",
+            "alias": "system-ui",
             "file": "AbyssinicaSIL-R.ttf",
             "family": "Abyssinica SIL",
             "style": "Regular",
@@ -164,6 +209,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "an",
+            "lang_name": "Aragonese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -194,6 +248,15 @@
             "is_default": 2
         },
         {
+            "lang": "ar",
+            "lang_name": "Arabic",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "as",
             "lang_name": "Assamese",
             "alias": "sans-serif",
@@ -215,6 +278,15 @@
             "lang": "as",
             "lang_name": "Assamese",
             "alias": "monospace",
+            "file": "Lohit-Assamese.ttf",
+            "family": "Lohit Assamese",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "as",
+            "lang_name": "Assamese",
+            "alias": "system-ui",
             "file": "Lohit-Assamese.ttf",
             "family": "Lohit Assamese",
             "style": "Regular",
@@ -248,6 +320,15 @@
             "is_default": 2
         },
         {
+            "lang": "ast",
+            "lang_name": "Asturian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "av",
             "lang_name": "Avaric",
             "alias": "sans-serif",
@@ -272,6 +353,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "av",
+            "lang_name": "Avaric",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -302,6 +392,15 @@
             "is_default": 2
         },
         {
+            "lang": "ay",
+            "lang_name": "Aymara",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "az_az",
             "lang_name": "Azerbaijani (Azerbaijan)",
             "alias": "sans-serif",
@@ -326,6 +425,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "az_az",
+            "lang_name": "Azerbaijani (Azerbaijan)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -352,6 +460,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "az_ir",
+            "lang_name": "Azerbaijani (Iran)",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -383,6 +500,15 @@
             "is_default": 2
         },
         {
+            "lang": "ba",
+            "lang_name": "Bashkir",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "be",
             "lang_name": "Belarusian",
             "alias": "sans-serif",
@@ -410,6 +536,15 @@
             "is_default": 2
         },
         {
+            "lang": "be",
+            "lang_name": "Belarusian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ber_dz",
             "lang_name": "Berber (Algeria)",
             "alias": "sans-serif",
@@ -437,6 +572,15 @@
             "is_default": 2
         },
         {
+            "lang": "ber_dz",
+            "lang_name": "Berber (Algeria)",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "ber_ma",
             "lang_name": "Berber (Morocco)",
             "alias": "sans-serif",
@@ -458,6 +602,15 @@
             "lang": "ber_ma",
             "lang_name": "Berber (Morocco)",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ber_ma",
+            "lang_name": "Berber (Morocco)",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -491,6 +644,15 @@
             "is_default": 2
         },
         {
+            "lang": "bg",
+            "lang_name": "Bulgarian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "bh",
             "lang_name": "",
             "alias": "sans-serif",
@@ -512,6 +674,15 @@
             "lang": "bh",
             "lang_name": "",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "bh",
+            "lang_name": "",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -545,6 +716,15 @@
             "is_default": 2
         },
         {
+            "lang": "bho",
+            "lang_name": "Bhojpuri",
+            "alias": "system-ui",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "bi",
             "lang_name": "Bislama",
             "alias": "sans-serif",
@@ -569,6 +749,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "bi",
+            "lang_name": "Bislama",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -599,6 +788,15 @@
             "is_default": 2
         },
         {
+            "lang": "bin",
+            "lang_name": "Bini",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "bm",
             "lang_name": "Bambara",
             "alias": "sans-serif",
@@ -622,6 +820,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "bm",
+            "lang_name": "Bambara",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -647,6 +854,15 @@
             "lang": "bn",
             "lang_name": "Bangla",
             "alias": "monospace",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "bn",
+            "lang_name": "Bangla",
+            "alias": "system-ui",
             "file": "Lohit-Bengali.ttf",
             "family": "Lohit Bengali",
             "style": "Regular",
@@ -680,6 +896,15 @@
             "is_default": 2
         },
         {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "system-ui",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "br",
             "lang_name": "Breton",
             "alias": "sans-serif",
@@ -707,6 +932,15 @@
             "is_default": 2
         },
         {
+            "lang": "br",
+            "lang_name": "Breton",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "brx",
             "lang_name": "Bodo",
             "alias": "sans-serif",
@@ -728,6 +962,15 @@
             "lang": "brx",
             "lang_name": "Bodo",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "brx",
+            "lang_name": "Bodo",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -761,6 +1004,15 @@
             "is_default": 2
         },
         {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "bua",
             "lang_name": "Buriat",
             "alias": "sans-serif",
@@ -788,6 +1040,15 @@
             "is_default": 2
         },
         {
+            "lang": "bua",
+            "lang_name": "Buriat",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "byn",
             "lang_name": "Blin",
             "alias": "sans-serif",
@@ -809,6 +1070,15 @@
             "lang": "byn",
             "lang_name": "Blin",
             "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "byn",
+            "lang_name": "Blin",
+            "alias": "system-ui",
             "file": "AbyssinicaSIL-R.ttf",
             "family": "Abyssinica SIL",
             "style": "Regular",
@@ -842,6 +1112,15 @@
             "is_default": 2
         },
         {
+            "lang": "ca",
+            "lang_name": "Catalan",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ce",
             "lang_name": "Chechen",
             "alias": "sans-serif",
@@ -866,6 +1145,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ce",
+            "lang_name": "Chechen",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -896,6 +1184,15 @@
             "is_default": 2
         },
         {
+            "lang": "ch",
+            "lang_name": "Chamorro",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "chm",
             "lang_name": "Mari",
             "alias": "sans-serif",
@@ -920,6 +1217,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "chm",
+            "lang_name": "Mari",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -950,6 +1256,15 @@
             "is_default": 2
         },
         {
+            "lang": "chr",
+            "lang_name": "Cherokee",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "co",
             "lang_name": "Corsican",
             "alias": "sans-serif",
@@ -974,6 +1289,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "co",
+            "lang_name": "Corsican",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1004,6 +1328,15 @@
             "is_default": 2
         },
         {
+            "lang": "crh",
+            "lang_name": "Crimean Tatar",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "cs",
             "lang_name": "Czech",
             "alias": "sans-serif",
@@ -1031,6 +1364,15 @@
             "is_default": 2
         },
         {
+            "lang": "cs",
+            "lang_name": "Czech",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "csb",
             "lang_name": "Kashubian",
             "alias": "sans-serif",
@@ -1058,6 +1400,15 @@
             "is_default": 2
         },
         {
+            "lang": "csb",
+            "lang_name": "Kashubian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "cu",
             "lang_name": "Church Slavic",
             "alias": "sans-serif",
@@ -1079,6 +1430,15 @@
             "lang": "cu",
             "lang_name": "Church Slavic",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "cu",
+            "lang_name": "Church Slavic",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -1112,6 +1472,15 @@
             "is_default": 2
         },
         {
+            "lang": "cv",
+            "lang_name": "Chuvash",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "cy",
             "lang_name": "Welsh",
             "alias": "sans-serif",
@@ -1136,6 +1505,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "cy",
+            "lang_name": "Welsh",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1166,6 +1544,15 @@
             "is_default": 2
         },
         {
+            "lang": "da",
+            "lang_name": "Danish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "de",
             "lang_name": "German",
             "alias": "sans-serif",
@@ -1190,6 +1577,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "de",
+            "lang_name": "German",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1214,6 +1610,15 @@
             "lang": "doi",
             "lang_name": "Dogri",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "doi",
+            "lang_name": "Dogri",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -1247,6 +1652,15 @@
             "is_default": 2
         },
         {
+            "lang": "dv",
+            "lang_name": "Divehi",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "dz",
             "lang_name": "Dzongkha",
             "alias": "sans-serif",
@@ -1268,6 +1682,15 @@
             "lang": "dz",
             "lang_name": "Dzongkha",
             "alias": "monospace",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "dz",
+            "lang_name": "Dzongkha",
+            "alias": "system-ui",
             "file": "Jomolhari-alpha3c-0605331.ttf",
             "family": "Jomolhari",
             "style": "Regular",
@@ -1301,6 +1724,15 @@
             "is_default": 2
         },
         {
+            "lang": "ee",
+            "lang_name": "Ewe",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "el",
             "lang_name": "Greek",
             "alias": "sans-serif",
@@ -1325,6 +1757,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "el",
+            "lang_name": "Greek",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1355,6 +1796,15 @@
             "is_default": 2
         },
         {
+            "lang": "en",
+            "lang_name": "English",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "eo",
             "lang_name": "Esperanto",
             "alias": "sans-serif",
@@ -1379,6 +1829,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "eo",
+            "lang_name": "Esperanto",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1409,6 +1868,15 @@
             "is_default": 2
         },
         {
+            "lang": "es",
+            "lang_name": "Spanish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "et",
             "lang_name": "Estonian",
             "alias": "sans-serif",
@@ -1436,6 +1904,15 @@
             "is_default": 2
         },
         {
+            "lang": "et",
+            "lang_name": "Estonian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "eu",
             "lang_name": "Basque",
             "alias": "sans-serif",
@@ -1460,6 +1937,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "eu",
+            "lang_name": "Basque",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1490,6 +1976,15 @@
             "is_default": 2
         },
         {
+            "lang": "fa",
+            "lang_name": "Persian",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "fat",
             "lang_name": "Fanti",
             "alias": "sans-serif",
@@ -1513,6 +2008,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "fat",
+            "lang_name": "Fanti",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -1544,6 +2048,15 @@
             "is_default": 2
         },
         {
+            "lang": "ff",
+            "lang_name": "Fula",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "fi",
             "lang_name": "Finnish",
             "alias": "sans-serif",
@@ -1568,6 +2081,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "fi",
+            "lang_name": "Finnish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1598,6 +2120,15 @@
             "is_default": 2
         },
         {
+            "lang": "fil",
+            "lang_name": "Filipino",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "fj",
             "lang_name": "Fijian",
             "alias": "sans-serif",
@@ -1622,6 +2153,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "fj",
+            "lang_name": "Fijian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1652,6 +2192,15 @@
             "is_default": 2
         },
         {
+            "lang": "fo",
+            "lang_name": "Faroese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "fr",
             "lang_name": "French",
             "alias": "sans-serif",
@@ -1676,6 +2225,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "fr",
+            "lang_name": "French",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1706,6 +2264,15 @@
             "is_default": 2
         },
         {
+            "lang": "fur",
+            "lang_name": "Friulian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "fy",
             "lang_name": "Western Frisian",
             "alias": "sans-serif",
@@ -1730,6 +2297,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "fy",
+            "lang_name": "Western Frisian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1760,6 +2336,15 @@
             "is_default": 2
         },
         {
+            "lang": "ga",
+            "lang_name": "Irish",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "gd",
             "lang_name": "Scottish Gaelic",
             "alias": "sans-serif",
@@ -1784,6 +2369,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "gd",
+            "lang_name": "Scottish Gaelic",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -1808,6 +2402,15 @@
             "lang": "gez",
             "lang_name": "Geez",
             "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "gez",
+            "lang_name": "Geez",
+            "alias": "system-ui",
             "file": "AbyssinicaSIL-R.ttf",
             "family": "Abyssinica SIL",
             "style": "Regular",
@@ -1841,6 +2444,15 @@
             "is_default": 2
         },
         {
+            "lang": "gl",
+            "lang_name": "Galician",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "gn",
             "lang_name": "Guarani",
             "alias": "sans-serif",
@@ -1868,6 +2480,15 @@
             "is_default": 2
         },
         {
+            "lang": "gn",
+            "lang_name": "Guarani",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "gu",
             "lang_name": "Gujarati",
             "alias": "sans-serif",
@@ -1889,6 +2510,15 @@
             "lang": "gu",
             "lang_name": "Gujarati",
             "alias": "monospace",
+            "file": "Lohit-Gujarati.ttf",
+            "family": "Lohit Gujarati",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "gu",
+            "lang_name": "Gujarati",
+            "alias": "system-ui",
             "file": "Lohit-Gujarati.ttf",
             "family": "Lohit Gujarati",
             "style": "Regular",
@@ -1922,6 +2552,15 @@
             "is_default": 2
         },
         {
+            "lang": "gv",
+            "lang_name": "Manx",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ha",
             "lang_name": "Hausa",
             "alias": "sans-serif",
@@ -1949,6 +2588,15 @@
             "is_default": 2
         },
         {
+            "lang": "ha",
+            "lang_name": "Hausa",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "haw",
             "lang_name": "Hawaiian",
             "alias": "sans-serif",
@@ -1976,6 +2624,15 @@
             "is_default": 2
         },
         {
+            "lang": "haw",
+            "lang_name": "Hawaiian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "he",
             "lang_name": "Hebrew",
             "alias": "sans-serif",
@@ -1997,6 +2654,15 @@
             "lang": "he",
             "lang_name": "Hebrew",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "he",
+            "lang_name": "Hebrew",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -2030,6 +2696,15 @@
             "is_default": 2
         },
         {
+            "lang": "hi",
+            "lang_name": "Hindi",
+            "alias": "system-ui",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "hne",
             "lang_name": "Chhattisgarhi",
             "alias": "sans-serif",
@@ -2051,6 +2726,15 @@
             "lang": "hne",
             "lang_name": "Chhattisgarhi",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "hne",
+            "lang_name": "Chhattisgarhi",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -2084,6 +2768,15 @@
             "is_default": 2
         },
         {
+            "lang": "ho",
+            "lang_name": "Hiri Motu",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "hr",
             "lang_name": "Croatian",
             "alias": "sans-serif",
@@ -2108,6 +2801,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "hr",
+            "lang_name": "Croatian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2138,6 +2840,15 @@
             "is_default": 2
         },
         {
+            "lang": "hsb",
+            "lang_name": "Upper Sorbian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ht",
             "lang_name": "Haitian Creole",
             "alias": "sans-serif",
@@ -2162,6 +2873,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ht",
+            "lang_name": "Haitian Creole",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2192,6 +2912,15 @@
             "is_default": 2
         },
         {
+            "lang": "hu",
+            "lang_name": "Hungarian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "hy",
             "lang_name": "Armenian",
             "alias": "sans-serif",
@@ -2215,6 +2944,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "hy",
+            "lang_name": "Armenian",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -2246,6 +2984,15 @@
             "is_default": 2
         },
         {
+            "lang": "hz",
+            "lang_name": "Herero",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "ia",
             "lang_name": "Interlingua",
             "alias": "sans-serif",
@@ -2270,6 +3017,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ia",
+            "lang_name": "Interlingua",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2300,6 +3056,15 @@
             "is_default": 2
         },
         {
+            "lang": "id",
+            "lang_name": "Indonesian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ie",
             "lang_name": "Interlingue",
             "alias": "sans-serif",
@@ -2327,6 +3092,15 @@
             "is_default": 2
         },
         {
+            "lang": "ie",
+            "lang_name": "Interlingue",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ig",
             "lang_name": "Igbo",
             "alias": "sans-serif",
@@ -2351,6 +3125,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ig",
+            "lang_name": "Igbo",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2375,6 +3158,15 @@
             "lang": "ii",
             "lang_name": "Sichuan Yi",
             "alias": "monospace",
+            "file": "NuosuSIL-Regular.ttf",
+            "family": "Nuosu SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ii",
+            "lang_name": "Sichuan Yi",
+            "alias": "system-ui",
             "file": "NuosuSIL-Regular.ttf",
             "family": "Nuosu SIL",
             "style": "Regular",
@@ -2408,6 +3200,15 @@
             "is_default": 2
         },
         {
+            "lang": "ik",
+            "lang_name": "Inupiaq",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "io",
             "lang_name": "Ido",
             "alias": "sans-serif",
@@ -2432,6 +3233,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "io",
+            "lang_name": "Ido",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2462,6 +3272,15 @@
             "is_default": 2
         },
         {
+            "lang": "is",
+            "lang_name": "Icelandic",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "it",
             "lang_name": "Italian",
             "alias": "sans-serif",
@@ -2489,6 +3308,15 @@
             "is_default": 2
         },
         {
+            "lang": "it",
+            "lang_name": "Italian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "iu",
             "lang_name": "Inuktitut",
             "alias": "sans-serif",
@@ -2510,6 +3338,15 @@
             "lang": "iu",
             "lang_name": "Inuktitut",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "iu",
+            "lang_name": "Inuktitut",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -2543,6 +3380,15 @@
             "is_default": 2
         },
         {
+            "lang": "ja",
+            "lang_name": "Japanese",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK JP",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "jv",
             "lang_name": "Javanese",
             "alias": "sans-serif",
@@ -2570,6 +3416,15 @@
             "is_default": 2
         },
         {
+            "lang": "jv",
+            "lang_name": "Javanese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ka",
             "lang_name": "Georgian",
             "alias": "sans-serif",
@@ -2593,6 +3448,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ka",
+            "lang_name": "Georgian",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -2624,6 +3488,15 @@
             "is_default": 2
         },
         {
+            "lang": "kaa",
+            "lang_name": "Kara-Kalpak",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kab",
             "lang_name": "Kabyle",
             "alias": "sans-serif",
@@ -2647,6 +3520,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "kab",
+            "lang_name": "Kabyle",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -2678,6 +3560,15 @@
             "is_default": 2
         },
         {
+            "lang": "ki",
+            "lang_name": "Kikuyu",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kj",
             "lang_name": "Kuanyama",
             "alias": "sans-serif",
@@ -2702,6 +3593,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "kj",
+            "lang_name": "Kuanyama",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2732,6 +3632,15 @@
             "is_default": 2
         },
         {
+            "lang": "kk",
+            "lang_name": "Kazakh",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kl",
             "lang_name": "Kalaallisut",
             "alias": "sans-serif",
@@ -2756,6 +3665,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "kl",
+            "lang_name": "Kalaallisut",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -2780,6 +3698,15 @@
             "lang": "km",
             "lang_name": "Khmer",
             "alias": "monospace",
+            "file": "KhmerOS_sys.ttf",
+            "family": "Khmer OS System",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "km",
+            "lang_name": "Khmer",
+            "alias": "system-ui",
             "file": "KhmerOS_sys.ttf",
             "family": "Khmer OS System",
             "style": "Regular",
@@ -2807,6 +3734,15 @@
             "lang": "kn",
             "lang_name": "Kannada",
             "alias": "monospace",
+            "file": "Lohit-Kannada.ttf",
+            "family": "Lohit Kannada",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kn",
+            "lang_name": "Kannada",
+            "alias": "system-ui",
             "file": "Lohit-Kannada.ttf",
             "family": "Lohit Kannada",
             "style": "Regular",
@@ -2840,6 +3776,15 @@
             "is_default": 2
         },
         {
+            "lang": "ko",
+            "lang_name": "Korean",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK KR",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kok",
             "lang_name": "Konkani",
             "alias": "sans-serif",
@@ -2861,6 +3806,15 @@
             "lang": "kok",
             "lang_name": "Konkani",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "kok",
+            "lang_name": "Konkani",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -2894,6 +3848,15 @@
             "is_default": 2
         },
         {
+            "lang": "kr",
+            "lang_name": "Kanuri",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "ks",
             "lang_name": "Kashmiri",
             "alias": "sans-serif",
@@ -2915,6 +3878,15 @@
             "lang": "ks",
             "lang_name": "Kashmiri",
             "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ks",
+            "lang_name": "Kashmiri",
+            "alias": "system-ui",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
@@ -2948,6 +3920,15 @@
             "is_default": 2
         },
         {
+            "lang": "ku_am",
+            "lang_name": "Kurdish (Armenia)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ku_iq",
             "lang_name": "Kurdish (Iraq)",
             "alias": "sans-serif",
@@ -2972,6 +3953,15 @@
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ku_iq",
+            "lang_name": "Kurdish (Iraq)",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
             "is_default": 2
         },
         {
@@ -3002,6 +3992,15 @@
             "is_default": 2
         },
         {
+            "lang": "ku_ir",
+            "lang_name": "Kurdish (Iran)",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "ku_tr",
             "lang_name": "Kurdish (T\u00fcrkiye)",
             "alias": "sans-serif",
@@ -3026,6 +4025,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ku_tr",
+            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3056,6 +4064,15 @@
             "is_default": 2
         },
         {
+            "lang": "kum",
+            "lang_name": "Kumyk",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kv",
             "lang_name": "Komi",
             "alias": "sans-serif",
@@ -3080,6 +4097,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "kv",
+            "lang_name": "Komi",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3110,6 +4136,15 @@
             "is_default": 2
         },
         {
+            "lang": "kw",
+            "lang_name": "Cornish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "kwm",
             "lang_name": "Kwambi",
             "alias": "sans-serif",
@@ -3134,6 +4169,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "kwm",
+            "lang_name": "Kwambi",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3164,6 +4208,15 @@
             "is_default": 2
         },
         {
+            "lang": "ky",
+            "lang_name": "Kyrgyz",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "la",
             "lang_name": "Latin",
             "alias": "sans-serif",
@@ -3188,6 +4241,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "la",
+            "lang_name": "Latin",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3212,6 +4274,15 @@
             "lang": "lah",
             "lang_name": "Western Panjabi",
             "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lah",
+            "lang_name": "Western Panjabi",
+            "alias": "system-ui",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
@@ -3245,6 +4316,15 @@
             "is_default": 2
         },
         {
+            "lang": "lb",
+            "lang_name": "Luxembourgish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "lez",
             "lang_name": "Lezghian",
             "alias": "sans-serif",
@@ -3269,6 +4349,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "lez",
+            "lang_name": "Lezghian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3299,6 +4388,15 @@
             "is_default": 2
         },
         {
+            "lang": "lg",
+            "lang_name": "Ganda",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "li",
             "lang_name": "Limburgish",
             "alias": "sans-serif",
@@ -3326,6 +4424,15 @@
             "is_default": 2
         },
         {
+            "lang": "li",
+            "lang_name": "Limburgish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ln",
             "lang_name": "Lingala",
             "alias": "sans-serif",
@@ -3353,6 +4460,15 @@
             "is_default": 2
         },
         {
+            "lang": "ln",
+            "lang_name": "Lingala",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "lo",
             "lang_name": "Lao",
             "alias": "sans-serif",
@@ -3374,6 +4490,15 @@
             "lang": "lo",
             "lang_name": "Lao",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -3407,6 +4532,15 @@
             "is_default": 2
         },
         {
+            "lang": "lt",
+            "lang_name": "Lithuanian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "lv",
             "lang_name": "Latvian",
             "alias": "sans-serif",
@@ -3434,6 +4568,15 @@
             "is_default": 2
         },
         {
+            "lang": "lv",
+            "lang_name": "Latvian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mai",
             "lang_name": "Maithili",
             "alias": "sans-serif",
@@ -3455,6 +4598,15 @@
             "lang": "mai",
             "lang_name": "Maithili",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -3488,6 +4640,15 @@
             "is_default": 2
         },
         {
+            "lang": "mg",
+            "lang_name": "Malagasy",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mh",
             "lang_name": "Marshallese",
             "alias": "sans-serif",
@@ -3512,6 +4673,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "mh",
+            "lang_name": "Marshallese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3542,6 +4712,15 @@
             "is_default": 2
         },
         {
+            "lang": "mi",
+            "lang_name": "M\u0101ori",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "mk",
             "lang_name": "Macedonian",
             "alias": "sans-serif",
@@ -3566,6 +4745,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -3590,6 +4778,15 @@
             "lang": "ml",
             "lang_name": "Malayalam",
             "alias": "monospace",
+            "file": "Meera-Regular.ttf",
+            "family": "Meera",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ml",
+            "lang_name": "Malayalam",
+            "alias": "system-ui",
             "file": "Meera-Regular.ttf",
             "family": "Meera",
             "style": "Regular",
@@ -3623,6 +4820,15 @@
             "is_default": 2
         },
         {
+            "lang": "mn_cn",
+            "lang_name": "Mongolian (China)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mn_mn",
             "lang_name": "Mongolian (Mongolia)",
             "alias": "sans-serif",
@@ -3650,6 +4856,15 @@
             "is_default": 2
         },
         {
+            "lang": "mn_mn",
+            "lang_name": "Mongolian (Mongolia)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mni",
             "lang_name": "Manipuri",
             "alias": "sans-serif",
@@ -3671,6 +4886,15 @@
             "lang": "mni",
             "lang_name": "Manipuri",
             "alias": "monospace",
+            "file": "Lohit-Bengali.ttf",
+            "family": "Lohit Bengali",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mni",
+            "lang_name": "Manipuri",
+            "alias": "system-ui",
             "file": "Lohit-Bengali.ttf",
             "family": "Lohit Bengali",
             "style": "Regular",
@@ -3704,6 +4928,15 @@
             "is_default": 2
         },
         {
+            "lang": "mo",
+            "lang_name": "Moldovan",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mr",
             "lang_name": "Marathi",
             "alias": "sans-serif",
@@ -3725,6 +4958,15 @@
             "lang": "mr",
             "lang_name": "Marathi",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mr",
+            "lang_name": "Marathi",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -3758,6 +5000,15 @@
             "is_default": 2
         },
         {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "mt",
             "lang_name": "Maltese",
             "alias": "sans-serif",
@@ -3785,6 +5036,15 @@
             "is_default": 2
         },
         {
+            "lang": "mt",
+            "lang_name": "Maltese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "my",
             "lang_name": "Burmese",
             "alias": "sans-serif",
@@ -3806,6 +5066,15 @@
             "lang": "my",
             "lang_name": "Burmese",
             "alias": "monospace",
+            "file": "Padauk-Regular.ttf",
+            "family": "Padauk",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "my",
+            "lang_name": "Burmese",
+            "alias": "system-ui",
             "file": "Padauk-Regular.ttf",
             "family": "Padauk",
             "style": "Regular",
@@ -3839,6 +5108,15 @@
             "is_default": 2
         },
         {
+            "lang": "na",
+            "lang_name": "Nauru",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nb",
             "lang_name": "Norwegian Bokm\u00e5l",
             "alias": "sans-serif",
@@ -3866,6 +5144,15 @@
             "is_default": 2
         },
         {
+            "lang": "nb",
+            "lang_name": "Norwegian Bokm\u00e5l",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nds",
             "lang_name": "Low German",
             "alias": "sans-serif",
@@ -3893,6 +5180,15 @@
             "is_default": 2
         },
         {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ne",
             "lang_name": "Nepali",
             "alias": "sans-serif",
@@ -3914,6 +5210,15 @@
             "lang": "ne",
             "lang_name": "Nepali",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -3947,6 +5252,15 @@
             "is_default": 2
         },
         {
+            "lang": "ng",
+            "lang_name": "Ndonga",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nl",
             "lang_name": "Dutch",
             "alias": "sans-serif",
@@ -3971,6 +5285,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "nl",
+            "lang_name": "Dutch",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4001,6 +5324,15 @@
             "is_default": 2
         },
         {
+            "lang": "nn",
+            "lang_name": "Norwegian Nynorsk",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "no",
             "lang_name": "Norwegian",
             "alias": "sans-serif",
@@ -4025,6 +5357,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "no",
+            "lang_name": "Norwegian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4055,6 +5396,15 @@
             "is_default": 2
         },
         {
+            "lang": "nqo",
+            "lang_name": "N\u2019Ko",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nr",
             "lang_name": "South Ndebele",
             "alias": "sans-serif",
@@ -4079,6 +5429,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "nr",
+            "lang_name": "South Ndebele",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4109,6 +5468,15 @@
             "is_default": 2
         },
         {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nv",
             "lang_name": "Navajo",
             "alias": "sans-serif",
@@ -4133,6 +5501,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "nv",
+            "lang_name": "Navajo",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4163,6 +5540,15 @@
             "is_default": 2
         },
         {
+            "lang": "ny",
+            "lang_name": "Nyanja",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "oc",
             "lang_name": "Occitan",
             "alias": "sans-serif",
@@ -4190,6 +5576,15 @@
             "is_default": 2
         },
         {
+            "lang": "oc",
+            "lang_name": "Occitan",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "om",
             "lang_name": "Oromo",
             "alias": "sans-serif",
@@ -4214,6 +5609,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4238,6 +5642,15 @@
             "lang": "or",
             "lang_name": "Odia",
             "alias": "monospace",
+            "file": "Lohit-Odia.ttf",
+            "family": "Lohit Odia",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "or",
+            "lang_name": "Odia",
+            "alias": "system-ui",
             "file": "Lohit-Odia.ttf",
             "family": "Lohit Odia",
             "style": "Regular",
@@ -4271,6 +5684,15 @@
             "is_default": 2
         },
         {
+            "lang": "os",
+            "lang_name": "Ossetic",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ota",
             "lang_name": "Ottoman Turkish",
             "alias": "sans-serif",
@@ -4298,6 +5720,15 @@
             "is_default": 2
         },
         {
+            "lang": "ota",
+            "lang_name": "Ottoman Turkish",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "pa-pk",
             "lang_name": "Punjabi (Pakistan)",
             "alias": "sans-serif",
@@ -4319,6 +5750,15 @@
             "lang": "pa-pk",
             "lang_name": "Punjabi (Pakistan)",
             "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "pa-pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "system-ui",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
@@ -4352,6 +5792,15 @@
             "is_default": 2
         },
         {
+            "lang": "pa_pk",
+            "lang_name": "Punjabi (Pakistan)",
+            "alias": "system-ui",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "pap_an",
             "lang_name": "Papiamento (Netherlands Antilles)",
             "alias": "sans-serif",
@@ -4376,6 +5825,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "pap_an",
+            "lang_name": "Papiamento (Netherlands Antilles)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4406,6 +5864,15 @@
             "is_default": 2
         },
         {
+            "lang": "pap_aw",
+            "lang_name": "Papiamento (Aruba)",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "pes",
             "lang_name": "",
             "alias": "sans-serif",
@@ -4430,6 +5897,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "pes",
+            "lang_name": "",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4460,6 +5936,15 @@
             "is_default": 2
         },
         {
+            "lang": "pl",
+            "lang_name": "Polish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "prs",
             "lang_name": "",
             "alias": "sans-serif",
@@ -4484,6 +5969,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "prs",
+            "lang_name": "",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4508,6 +6002,15 @@
             "lang": "ps_af",
             "lang_name": "Pashto (Afghanistan)",
             "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ps_af",
+            "lang_name": "Pashto (Afghanistan)",
+            "alias": "system-ui",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
@@ -4541,6 +6044,15 @@
             "is_default": 2
         },
         {
+            "lang": "ps_pk",
+            "lang_name": "Pashto (Pakistan)",
+            "alias": "system-ui",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "pt",
             "lang_name": "Portuguese",
             "alias": "sans-serif",
@@ -4565,6 +6077,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "pt",
+            "lang_name": "Portuguese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4595,6 +6116,15 @@
             "is_default": 2
         },
         {
+            "lang": "qu",
+            "lang_name": "Quechua",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "quz",
             "lang_name": "Cusco Quechua",
             "alias": "sans-serif",
@@ -4619,6 +6149,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "quz",
+            "lang_name": "Cusco Quechua",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4649,6 +6188,15 @@
             "is_default": 2
         },
         {
+            "lang": "rm",
+            "lang_name": "Romansh",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "rn",
             "lang_name": "Rundi",
             "alias": "sans-serif",
@@ -4673,6 +6221,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "rn",
+            "lang_name": "Rundi",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4703,6 +6260,15 @@
             "is_default": 2
         },
         {
+            "lang": "ro",
+            "lang_name": "Romanian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ru",
             "lang_name": "Russian",
             "alias": "sans-serif",
@@ -4730,6 +6296,15 @@
             "is_default": 2
         },
         {
+            "lang": "ru",
+            "lang_name": "Russian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "rw",
             "lang_name": "Kinyarwanda",
             "alias": "sans-serif",
@@ -4754,6 +6329,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "rw",
+            "lang_name": "Kinyarwanda",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4778,6 +6362,15 @@
             "lang": "sa",
             "lang_name": "Sanskrit",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "sa",
+            "lang_name": "Sanskrit",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -4811,6 +6404,15 @@
             "is_default": 2
         },
         {
+            "lang": "sah",
+            "lang_name": "Yakut",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sat",
             "lang_name": "Santali",
             "alias": "sans-serif",
@@ -4832,6 +6434,15 @@
             "lang": "sat",
             "lang_name": "Santali",
             "alias": "monospace",
+            "file": "Lohit-Devanagari.ttf",
+            "family": "Lohit Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "sat",
+            "lang_name": "Santali",
+            "alias": "system-ui",
             "file": "Lohit-Devanagari.ttf",
             "family": "Lohit Devanagari",
             "style": "Regular",
@@ -4865,6 +6476,15 @@
             "is_default": 2
         },
         {
+            "lang": "sc",
+            "lang_name": "Sardinian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sco",
             "lang_name": "Scots",
             "alias": "sans-serif",
@@ -4888,6 +6508,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sco",
+            "lang_name": "Scots",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -4919,6 +6548,15 @@
             "is_default": 2
         },
         {
+            "lang": "sd",
+            "lang_name": "Sindhi",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "se",
             "lang_name": "Northern Sami",
             "alias": "sans-serif",
@@ -4943,6 +6581,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "se",
+            "lang_name": "Northern Sami",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -4973,6 +6620,15 @@
             "is_default": 2
         },
         {
+            "lang": "sel",
+            "lang_name": "Selkup",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sg",
             "lang_name": "Sango",
             "alias": "sans-serif",
@@ -4997,6 +6653,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sg",
+            "lang_name": "Sango",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5027,6 +6692,15 @@
             "is_default": 2
         },
         {
+            "lang": "sh",
+            "lang_name": "Serbo-Croatian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "shs",
             "lang_name": "Shuswap",
             "alias": "sans-serif",
@@ -5054,6 +6728,15 @@
             "is_default": 2
         },
         {
+            "lang": "shs",
+            "lang_name": "Shuswap",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "si",
             "lang_name": "Sinhala",
             "alias": "sans-serif",
@@ -5075,6 +6758,15 @@
             "lang": "si",
             "lang_name": "Sinhala",
             "alias": "monospace",
+            "file": "NotoSansSinhala-VF.ttf",
+            "family": "Noto Sans Sinhala",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "si",
+            "lang_name": "Sinhala",
+            "alias": "system-ui",
             "file": "NotoSansSinhala-VF.ttf",
             "family": "Noto Sans Sinhala",
             "style": "Regular",
@@ -5108,6 +6800,15 @@
             "is_default": 2
         },
         {
+            "lang": "sid",
+            "lang_name": "Sidamo",
+            "alias": "system-ui",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sk",
             "lang_name": "Slovak",
             "alias": "sans-serif",
@@ -5132,6 +6833,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sk",
+            "lang_name": "Slovak",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5162,6 +6872,15 @@
             "is_default": 2
         },
         {
+            "lang": "sl",
+            "lang_name": "Slovenian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sm",
             "lang_name": "Samoan",
             "alias": "sans-serif",
@@ -5186,6 +6905,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sm",
+            "lang_name": "Samoan",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5216,6 +6944,15 @@
             "is_default": 2
         },
         {
+            "lang": "sma",
+            "lang_name": "Southern Sami",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "smj",
             "lang_name": "Lule Sami",
             "alias": "sans-serif",
@@ -5243,6 +6980,15 @@
             "is_default": 2
         },
         {
+            "lang": "smj",
+            "lang_name": "Lule Sami",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "smn",
             "lang_name": "Inari Sami",
             "alias": "sans-serif",
@@ -5267,6 +7013,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "smn",
+            "lang_name": "Inari Sami",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5297,6 +7052,15 @@
             "is_default": 2
         },
         {
+            "lang": "sms",
+            "lang_name": "Skolt Sami",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "sn",
             "lang_name": "Shona",
             "alias": "sans-serif",
@@ -5321,6 +7085,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sn",
+            "lang_name": "Shona",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5351,6 +7124,15 @@
             "is_default": 2
         },
         {
+            "lang": "so",
+            "lang_name": "Somali",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sq",
             "lang_name": "Albanian",
             "alias": "sans-serif",
@@ -5375,6 +7157,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "sq",
+            "lang_name": "Albanian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5405,6 +7196,15 @@
             "is_default": 2
         },
         {
+            "lang": "sr",
+            "lang_name": "Serbian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ss",
             "lang_name": "Swati",
             "alias": "sans-serif",
@@ -5429,6 +7229,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ss",
+            "lang_name": "Swati",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5459,6 +7268,15 @@
             "is_default": 2
         },
         {
+            "lang": "st",
+            "lang_name": "Southern Sotho",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "su",
             "lang_name": "Sundanese",
             "alias": "sans-serif",
@@ -5483,6 +7301,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "su",
+            "lang_name": "Sundanese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5513,6 +7340,15 @@
             "is_default": 2
         },
         {
+            "lang": "sv",
+            "lang_name": "Swedish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "sw",
             "lang_name": "Swahili",
             "alias": "sans-serif",
@@ -5540,6 +7376,15 @@
             "is_default": 2
         },
         {
+            "lang": "sw",
+            "lang_name": "Swahili",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "syr",
             "lang_name": "Syriac",
             "alias": "sans-serif",
@@ -5564,6 +7409,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "syr",
+            "lang_name": "Syriac",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5588,6 +7442,15 @@
             "lang": "ta",
             "lang_name": "Tamil",
             "alias": "monospace",
+            "file": "Lohit-Tamil.ttf",
+            "family": "Lohit Tamil",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ta",
+            "lang_name": "Tamil",
+            "alias": "system-ui",
             "file": "Lohit-Tamil.ttf",
             "family": "Lohit Tamil",
             "style": "Regular",
@@ -5615,6 +7478,15 @@
             "lang": "te",
             "lang_name": "Telugu",
             "alias": "monospace",
+            "file": "Lohit-Telugu.ttf",
+            "family": "Lohit Telugu",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "te",
+            "lang_name": "Telugu",
+            "alias": "system-ui",
             "file": "Lohit-Telugu.ttf",
             "family": "Lohit Telugu",
             "style": "Regular",
@@ -5648,6 +7520,15 @@
             "is_default": 2
         },
         {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "th",
             "lang_name": "Thai",
             "alias": "sans-serif",
@@ -5669,6 +7550,15 @@
             "lang": "th",
             "lang_name": "Thai",
             "alias": "monospace",
+            "file": "Waree.otf",
+            "family": "Waree",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "th",
+            "lang_name": "Thai",
+            "alias": "system-ui",
             "file": "Waree.otf",
             "family": "Waree",
             "style": "Regular",
@@ -5702,6 +7592,15 @@
             "is_default": 2
         },
         {
+            "lang": "ti_er",
+            "lang_name": "Tigrinya (Eritrea)",
+            "alias": "system-ui",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ti_et",
             "lang_name": "Tigrinya (Ethiopia)",
             "alias": "sans-serif",
@@ -5723,6 +7622,15 @@
             "lang": "ti_et",
             "lang_name": "Tigrinya (Ethiopia)",
             "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ti_et",
+            "lang_name": "Tigrinya (Ethiopia)",
+            "alias": "system-ui",
             "file": "AbyssinicaSIL-R.ttf",
             "family": "Abyssinica SIL",
             "style": "Regular",
@@ -5756,6 +7664,15 @@
             "is_default": 2
         },
         {
+            "lang": "tig",
+            "lang_name": "Tigre",
+            "alias": "system-ui",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tk",
             "lang_name": "Turkmen",
             "alias": "sans-serif",
@@ -5780,6 +7697,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "tk",
+            "lang_name": "Turkmen",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5810,6 +7736,15 @@
             "is_default": 2
         },
         {
+            "lang": "tl",
+            "lang_name": "Tagalog",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tn",
             "lang_name": "Tswana",
             "alias": "sans-serif",
@@ -5834,6 +7769,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "tn",
+            "lang_name": "Tswana",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5864,6 +7808,15 @@
             "is_default": 2
         },
         {
+            "lang": "to",
+            "lang_name": "Tongan",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tr",
             "lang_name": "Turkish",
             "alias": "sans-serif",
@@ -5888,6 +7841,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "tr",
+            "lang_name": "Turkish",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -5918,6 +7880,15 @@
             "is_default": 2
         },
         {
+            "lang": "ts",
+            "lang_name": "Tsonga",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tt",
             "lang_name": "Tatar",
             "alias": "sans-serif",
@@ -5945,6 +7916,15 @@
             "is_default": 2
         },
         {
+            "lang": "tt",
+            "lang_name": "Tatar",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tw",
             "lang_name": "Twi",
             "alias": "sans-serif",
@@ -5968,6 +7948,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "tw",
+            "lang_name": "Twi",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -5999,6 +7988,15 @@
             "is_default": 2
         },
         {
+            "lang": "ty",
+            "lang_name": "Tahitian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "tyv",
             "lang_name": "Tuvinian",
             "alias": "sans-serif",
@@ -6023,6 +8021,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "tyv",
+            "lang_name": "Tuvinian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -6053,6 +8060,15 @@
             "is_default": 2
         },
         {
+            "lang": "ug",
+            "lang_name": "Uyghur",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "uk",
             "lang_name": "Ukrainian",
             "alias": "sans-serif",
@@ -6080,6 +8096,15 @@
             "is_default": 2
         },
         {
+            "lang": "uk",
+            "lang_name": "Ukrainian",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "und_zmth",
             "lang_name": "",
             "alias": "sans-serif",
@@ -6101,6 +8126,15 @@
             "lang": "und_zmth",
             "lang_name": "",
             "alias": "monospace",
+            "file": "STIX2Math.otf",
+            "family": "STIX",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "und_zmth",
+            "lang_name": "",
+            "alias": "system-ui",
             "file": "STIX2Math.otf",
             "family": "STIX",
             "style": "Regular",
@@ -6134,6 +8168,15 @@
             "is_default": 2
         },
         {
+            "lang": "und_zsye",
+            "lang_name": "",
+            "alias": "system-ui",
+            "file": "NotoColorEmoji.ttf",
+            "family": "Noto Color Emoji",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ur",
             "lang_name": "Urdu",
             "alias": "sans-serif",
@@ -6155,6 +8198,15 @@
             "lang": "ur",
             "lang_name": "Urdu",
             "alias": "monospace",
+            "file": "PakTypeNaskhBasic.ttf",
+            "family": "PakType Naskh Basic",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ur",
+            "lang_name": "Urdu",
+            "alias": "system-ui",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
             "style": "Regular",
@@ -6188,6 +8240,15 @@
             "is_default": 2
         },
         {
+            "lang": "uz",
+            "lang_name": "Uzbek",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ve",
             "lang_name": "Venda",
             "alias": "sans-serif",
@@ -6211,6 +8272,15 @@
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "ve",
+            "lang_name": "Venda",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
             "style": "Book",
             "is_default": 2
         },
@@ -6242,6 +8312,15 @@
             "is_default": 2
         },
         {
+            "lang": "vi",
+            "lang_name": "Vietnamese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "vo",
             "lang_name": "Volap\u00fck",
             "alias": "sans-serif",
@@ -6266,6 +8345,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "vo",
+            "lang_name": "Volap\u00fck",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -6296,6 +8384,15 @@
             "is_default": 2
         },
         {
+            "lang": "vot",
+            "lang_name": "Votic",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "wa",
             "lang_name": "Walloon",
             "alias": "sans-serif",
@@ -6320,6 +8417,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "wa",
+            "lang_name": "Walloon",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -6344,6 +8450,15 @@
             "lang": "wal",
             "lang_name": "Wolaytta",
             "alias": "monospace",
+            "file": "AbyssinicaSIL-R.ttf",
+            "family": "Abyssinica SIL",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "wal",
+            "lang_name": "Wolaytta",
+            "alias": "system-ui",
             "file": "AbyssinicaSIL-R.ttf",
             "family": "Abyssinica SIL",
             "style": "Regular",
@@ -6377,6 +8492,15 @@
             "is_default": 2
         },
         {
+            "lang": "wen",
+            "lang_name": "Sorbian Languages",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "wo",
             "lang_name": "Wolof",
             "alias": "sans-serif",
@@ -6401,6 +8525,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "wo",
+            "lang_name": "Wolof",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -6431,6 +8564,15 @@
             "is_default": 2
         },
         {
+            "lang": "xh",
+            "lang_name": "Xhosa",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "yap",
             "lang_name": "Yapese",
             "alias": "sans-serif",
@@ -6458,6 +8600,15 @@
             "is_default": 2
         },
         {
+            "lang": "yap",
+            "lang_name": "Yapese",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "yi",
             "lang_name": "Yiddish",
             "alias": "sans-serif",
@@ -6479,6 +8630,15 @@
             "lang": "yi",
             "lang_name": "Yiddish",
             "alias": "monospace",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "yi",
+            "lang_name": "Yiddish",
+            "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
             "style": "Book",
@@ -6512,6 +8672,15 @@
             "is_default": 2
         },
         {
+            "lang": "yo",
+            "lang_name": "Yoruba",
+            "alias": "system-ui",
+            "file": "DejaVuSans.ttf",
+            "family": "DejaVu Sans",
+            "style": "Book",
+            "is_default": 2
+        },
+        {
             "lang": "za",
             "lang_name": "Zhuang",
             "alias": "sans-serif",
@@ -6536,6 +8705,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "za",
+            "lang_name": "Zhuang",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         },
         {
@@ -6562,6 +8740,15 @@
             "alias": "monospace",
             "file": "NotoSansCJK-Regular.ttc",
             "family": "Noto Sans Mono CJK SC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh_cn",
+            "lang_name": "Simplified Chinese (China)",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK SC",
             "style": "Regular",
             "is_default": 2
         },
@@ -6593,6 +8780,15 @@
             "is_default": 2
         },
         {
+            "lang": "zh_hk",
+            "lang_name": "Traditional Chinese (Hong Kong)",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK HK",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "zh_mo",
             "lang_name": "Traditional Chinese (Macau SAR China)",
             "alias": "sans-serif",
@@ -6616,6 +8812,15 @@
             "alias": "monospace",
             "file": "NotoSansCJK-Regular.ttc",
             "family": "Noto Sans Mono CJK TC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh_mo",
+            "lang_name": "Traditional Chinese (Macau SAR China)",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK HK",
             "style": "Regular",
             "is_default": 2
         },
@@ -6647,6 +8852,15 @@
             "is_default": 2
         },
         {
+            "lang": "zh_sg",
+            "lang_name": "Simplified Chinese (Singapore)",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK SC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "zh_tw",
             "lang_name": "Traditional Chinese (Republic of China)",
             "alias": "sans-serif",
@@ -6670,6 +8884,15 @@
             "alias": "monospace",
             "file": "NotoSansCJK-Regular.ttc",
             "family": "Noto Sans Mono CJK TC",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zh_tw",
+            "lang_name": "Traditional Chinese (Republic of China)",
+            "alias": "system-ui",
+            "file": "NotoSansCJK-Regular.ttc",
+            "family": "Noto Sans CJK TC",
             "style": "Regular",
             "is_default": 2
         },
@@ -6698,6 +8921,15 @@
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
             "style": "Book",
+            "is_default": 2
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "system-ui",
+            "file": "Cantarell-Regular.otf",
+            "family": "Cantarell",
+            "style": "Regular",
             "is_default": 2
         }
     ]
