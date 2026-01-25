@@ -293,6 +293,78 @@
             "is_default": 0
         },
         {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "sans-serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "serif",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "monospace",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 1
+        },
+        {
+            "lang": "bo",
+            "lang_name": "Tibetan",
+            "alias": "system-ui",
+            "file": "Jomolhari-alpha3c-0605331.ttf",
+            "family": "Jomolhari",
+            "style": "Regular",
+            "is_default": 0
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "bs",
+            "lang_name": "Bosnian",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ca",
             "lang_name": "Catalan",
             "alias": "sans-serif",
@@ -1661,6 +1733,78 @@
             "is_default": 0
         },
         {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "sans-serif",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "serif",
+            "file": "NotoSerifDevanagari[wght].ttf",
+            "family": "Noto Serif Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "monospace",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mai",
+            "lang_name": "Maithili",
+            "alias": "system-ui",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "mk",
+            "lang_name": "Macedonian",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "ml",
             "lang_name": "Malayalam",
             "alias": "sans-serif",
@@ -1733,6 +1877,42 @@
             "is_default": 0
         },
         {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ms",
+            "lang_name": "Malay",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "my",
             "lang_name": "Burmese",
             "alias": "sans-serif",
@@ -1805,6 +1985,78 @@
             "is_default": 0
         },
         {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nds",
+            "lang_name": "Low German",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "sans-serif",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "serif",
+            "file": "NotoSerifDevanagari[wght].ttf",
+            "family": "Noto Serif Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "monospace",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "ne",
+            "lang_name": "Nepali",
+            "alias": "system-ui",
+            "file": "NotoSansDevanagari[wght].ttf",
+            "family": "Noto Sans Devanagari",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "nl",
             "lang_name": "Dutch",
             "alias": "sans-serif",
@@ -1877,6 +2129,42 @@
             "is_default": 0
         },
         {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "nso",
+            "lang_name": "Northern Sotho",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "oc",
             "lang_name": "Occitan",
             "alias": "sans-serif",
@@ -1911,6 +2199,42 @@
             "family": "Noto Sans",
             "style": "Regular",
             "is_default": 0
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "om",
+            "lang_name": "Oromo",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
         },
         {
             "lang": "or",
@@ -2417,6 +2741,42 @@
             "is_default": 0
         },
         {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "tg",
+            "lang_name": "Tajik",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
             "lang": "th",
             "lang_name": "Thai",
             "alias": "sans-serif",
@@ -2811,6 +3171,42 @@
             "family": "Noto Sans CJK TC",
             "style": "Regular",
             "is_default": 0
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "sans-serif",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "serif",
+            "file": "NotoSerif[wght].ttf",
+            "family": "Noto Serif",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "monospace",
+            "file": "NotoSansMono[wght].ttf",
+            "family": "Noto Sans Mono",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "zu",
+            "lang_name": "Zulu",
+            "alias": "system-ui",
+            "file": "NotoSans[wght].ttf",
+            "family": "Noto Sans",
+            "style": "Regular",
+            "is_default": 2
         }
     ]
 }
