@@ -3894,7 +3894,7 @@
         },
         {
             "lang": "ku_am",
-            "lang_name": "Kurdish (Armenia)",
+            "lang_name": "Kurmanji (Armenia)",
             "alias": "sans-serif",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -3903,7 +3903,7 @@
         },
         {
             "lang": "ku_am",
-            "lang_name": "Kurdish (Armenia)",
+            "lang_name": "Kurmanji (Armenia)",
             "alias": "serif",
             "file": "DejaVuSerif.ttf",
             "family": "DejaVu Serif",
@@ -3912,7 +3912,7 @@
         },
         {
             "lang": "ku_am",
-            "lang_name": "Kurdish (Armenia)",
+            "lang_name": "Kurmanji (Armenia)",
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
@@ -3921,7 +3921,7 @@
         },
         {
             "lang": "ku_am",
-            "lang_name": "Kurdish (Armenia)",
+            "lang_name": "Kurmanji (Armenia)",
             "alias": "system-ui",
             "file": "Cantarell-Regular.otf",
             "family": "Cantarell",
@@ -3930,7 +3930,7 @@
         },
         {
             "lang": "ku_iq",
-            "lang_name": "Kurdish (Iraq)",
+            "lang_name": "Kurmanji (Iraq)",
             "alias": "sans-serif",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -3939,7 +3939,7 @@
         },
         {
             "lang": "ku_iq",
-            "lang_name": "Kurdish (Iraq)",
+            "lang_name": "Kurmanji (Iraq)",
             "alias": "serif",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
@@ -3948,7 +3948,7 @@
         },
         {
             "lang": "ku_iq",
-            "lang_name": "Kurdish (Iraq)",
+            "lang_name": "Kurmanji (Iraq)",
             "alias": "monospace",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
@@ -3957,7 +3957,7 @@
         },
         {
             "lang": "ku_iq",
-            "lang_name": "Kurdish (Iraq)",
+            "lang_name": "Kurmanji (Iraq)",
             "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -3966,7 +3966,7 @@
         },
         {
             "lang": "ku_ir",
-            "lang_name": "Kurdish (Iran)",
+            "lang_name": "Kurmanji (Iran)",
             "alias": "sans-serif",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -3975,7 +3975,7 @@
         },
         {
             "lang": "ku_ir",
-            "lang_name": "Kurdish (Iran)",
+            "lang_name": "Kurmanji (Iran)",
             "alias": "serif",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
@@ -3984,7 +3984,7 @@
         },
         {
             "lang": "ku_ir",
-            "lang_name": "Kurdish (Iran)",
+            "lang_name": "Kurmanji (Iran)",
             "alias": "monospace",
             "file": "PakTypeNaskhBasic.ttf",
             "family": "PakType Naskh Basic",
@@ -3993,7 +3993,7 @@
         },
         {
             "lang": "ku_ir",
-            "lang_name": "Kurdish (Iran)",
+            "lang_name": "Kurmanji (Iran)",
             "alias": "system-ui",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -4002,7 +4002,7 @@
         },
         {
             "lang": "ku_tr",
-            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "lang_name": "Kurmanji (T\u00fcrkiye)",
             "alias": "sans-serif",
             "file": "DejaVuSans.ttf",
             "family": "DejaVu Sans",
@@ -4011,7 +4011,7 @@
         },
         {
             "lang": "ku_tr",
-            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "lang_name": "Kurmanji (T\u00fcrkiye)",
             "alias": "serif",
             "file": "DejaVuSerif.ttf",
             "family": "DejaVu Serif",
@@ -4020,7 +4020,7 @@
         },
         {
             "lang": "ku_tr",
-            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "lang_name": "Kurmanji (T\u00fcrkiye)",
             "alias": "monospace",
             "file": "DejaVuSansMono.ttf",
             "family": "DejaVu Sans Mono",
@@ -4029,7 +4029,7 @@
         },
         {
             "lang": "ku_tr",
-            "lang_name": "Kurdish (T\u00fcrkiye)",
+            "lang_name": "Kurmanji (T\u00fcrkiye)",
             "alias": "system-ui",
             "file": "Cantarell-Regular.otf",
             "family": "Cantarell",
