@@ -2,7 +2,7 @@
     "id": "centos",
     "version_id": "9",
     "pattern": "minimal",
-    "fq_id": "20260504023357",
+    "fq_id": "20260506023211",
     "fonts": [
         {
             "lang": "aa",
