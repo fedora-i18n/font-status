@@ -2,7 +2,7 @@
     "id": "fedora",
     "version_id": "45",
     "pattern": "minimal",
-    "fq_id": "20260520025227",
+    "fq_id": "20260521025608",
     "fonts": [
         {
             "lang": "af",
@@ -1654,6 +1654,42 @@
         {
             "lang": "kw",
             "lang_name": "Cornish",
+            "alias": "system-ui",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "sans-serif",
+            "file": "NotoSansLao[wght].ttf",
+            "family": "Noto Sans Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "serif",
+            "file": "NotoSerifLao[wght].ttf",
+            "family": "Noto Serif Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "monospace",
+            "file": "NotoSansLao[wght].ttf",
+            "family": "Noto Sans Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
             "alias": "system-ui",
             "file": "Cantarell-VF.otf",
             "family": "Cantarell",
