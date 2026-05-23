@@ -2,7 +2,7 @@
     "id": "centos",
     "version_id": "10",
     "pattern": "minimal",
-    "fq_id": "20260522025542",
+    "fq_id": "20260523024111",
     "fonts": [
         {
             "lang": "af",
@@ -1659,6 +1659,42 @@
             "family": "Noto Sans",
             "style": "Regular",
             "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "sans-serif",
+            "file": "NotoSansLao[wght].ttf",
+            "family": "Noto Sans Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "serif",
+            "file": "NotoSerifLao[wght].ttf",
+            "family": "Noto Serif Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "monospace",
+            "file": "NotoSansLao[wght].ttf",
+            "family": "Noto Sans Lao",
+            "style": "Regular",
+            "is_default": 2
+        },
+        {
+            "lang": "lo",
+            "lang_name": "Lao",
+            "alias": "system-ui",
+            "file": "NotoSansLao[wght].ttf",
+            "family": "Noto Sans Lao",
+            "style": "Regular",
+            "is_default": 0
         },
         {
             "lang": "lt",
