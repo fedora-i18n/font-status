@@ -1,8 +1,8 @@
 {
-    "id": "centos",
-    "version_id": "10",
+    "id": "fedora",
+    "version_id": "45",
     "pattern": "minimal",
-    "fq_id": "20260813013928",
+    "fq_id": "20260813014102",
     "fonts": [
         {
             "lang": "af",
@@ -35,10 +35,10 @@
             "lang": "af",
             "lang_name": "Afrikaans",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "am",
@@ -71,10 +71,10 @@
             "lang": "am",
             "lang_name": "Amharic",
             "alias": "system-ui",
-            "file": "NotoSansEthiopic[wght].ttf",
-            "family": "Noto Sans Ethiopic",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ar",
@@ -101,16 +101,16 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "ar",
             "lang_name": "Arabic",
             "alias": "system-ui",
-            "file": "NotoSansArabic[wght].ttf",
-            "family": "Noto Sans Arabic",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "as",
@@ -143,10 +143,10 @@
             "lang": "as",
             "lang_name": "Assamese",
             "alias": "system-ui",
-            "file": "NotoSansBengali[wght].ttf",
-            "family": "Noto Sans Bengali",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ast",
@@ -179,10 +179,10 @@
             "lang": "ast",
             "lang_name": "Asturian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "be",
@@ -215,10 +215,10 @@
             "lang": "be",
             "lang_name": "Belarusian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "bg",
@@ -251,10 +251,10 @@
             "lang": "bg",
             "lang_name": "Bulgarian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "bn",
@@ -287,10 +287,10 @@
             "lang": "bn",
             "lang_name": "Bangla",
             "alias": "system-ui",
-            "file": "NotoSansBengali[wght].ttf",
-            "family": "Noto Sans Bengali",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "bo",
@@ -323,10 +323,10 @@
             "lang": "bo",
             "lang_name": "Tibetan",
             "alias": "system-ui",
-            "file": "Jomolhari-alpha3c-0605331.ttf",
-            "family": "Jomolhari",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "bs",
@@ -359,8 +359,8 @@
             "lang": "bs",
             "lang_name": "Bosnian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -395,10 +395,10 @@
             "lang": "ca",
             "lang_name": "Catalan",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "cs",
@@ -431,10 +431,10 @@
             "lang": "cs",
             "lang_name": "Czech",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "cy",
@@ -467,10 +467,10 @@
             "lang": "cy",
             "lang_name": "Welsh",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "da",
@@ -503,10 +503,10 @@
             "lang": "da",
             "lang_name": "Danish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "de",
@@ -539,10 +539,10 @@
             "lang": "de",
             "lang_name": "German",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "el",
@@ -575,10 +575,10 @@
             "lang": "el",
             "lang_name": "Greek",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "en",
@@ -611,10 +611,10 @@
             "lang": "en",
             "lang_name": "English",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 1
         },
         {
             "lang": "eo",
@@ -647,10 +647,10 @@
             "lang": "eo",
             "lang_name": "Esperanto",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "es",
@@ -683,10 +683,10 @@
             "lang": "es",
             "lang_name": "Spanish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "et",
@@ -719,10 +719,10 @@
             "lang": "et",
             "lang_name": "Estonian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "eu",
@@ -755,10 +755,10 @@
             "lang": "eu",
             "lang_name": "Basque",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fa",
@@ -785,16 +785,16 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "fa",
             "lang_name": "Persian",
             "alias": "system-ui",
-            "file": "Vazirmatn[wght].ttf",
-            "family": "Vazirmatn",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fi",
@@ -827,10 +827,10 @@
             "lang": "fi",
             "lang_name": "Finnish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fil",
@@ -863,10 +863,10 @@
             "lang": "fil",
             "lang_name": "Filipino",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fr",
@@ -899,10 +899,10 @@
             "lang": "fr",
             "lang_name": "French",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fur",
@@ -935,10 +935,10 @@
             "lang": "fur",
             "lang_name": "Friulian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "fy",
@@ -971,10 +971,10 @@
             "lang": "fy",
             "lang_name": "Western Frisian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ga",
@@ -1007,10 +1007,10 @@
             "lang": "ga",
             "lang_name": "Irish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "gl",
@@ -1043,10 +1043,10 @@
             "lang": "gl",
             "lang_name": "Galician",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "gu",
@@ -1079,10 +1079,10 @@
             "lang": "gu",
             "lang_name": "Gujarati",
             "alias": "system-ui",
-            "file": "NotoSansGujarati[wght].ttf",
-            "family": "Noto Sans Gujarati",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "he",
@@ -1090,7 +1090,7 @@
             "alias": "sans-serif",
             "file": "NotoSansHebrew[wght].ttf",
             "family": "Noto Sans Hebrew",
-            "style": "Regular",
+            "style": "Light",
             "is_default": 1
         },
         {
@@ -1108,17 +1108,17 @@
             "alias": "monospace",
             "file": "NotoSansHebrew[wght].ttf",
             "family": "Noto Sans Hebrew",
-            "style": "Regular",
+            "style": "Light",
             "is_default": 1
         },
         {
             "lang": "he",
             "lang_name": "Hebrew",
             "alias": "system-ui",
-            "file": "NotoSansHebrew[wght].ttf",
-            "family": "Noto Sans Hebrew",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "hi",
@@ -1151,10 +1151,10 @@
             "lang": "hi",
             "lang_name": "Hindi",
             "alias": "system-ui",
-            "file": "NotoSansDevanagari[wght].ttf",
-            "family": "Noto Sans Devanagari",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "hr",
@@ -1187,10 +1187,10 @@
             "lang": "hr",
             "lang_name": "Croatian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "hu",
@@ -1223,10 +1223,10 @@
             "lang": "hu",
             "lang_name": "Hungarian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ia",
@@ -1259,10 +1259,10 @@
             "lang": "ia",
             "lang_name": "Interlingua",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "id",
@@ -1295,10 +1295,10 @@
             "lang": "id",
             "lang_name": "Indonesian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "is",
@@ -1331,10 +1331,10 @@
             "lang": "is",
             "lang_name": "Icelandic",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "it",
@@ -1367,10 +1367,10 @@
             "lang": "it",
             "lang_name": "Italian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ja",
@@ -1403,10 +1403,10 @@
             "lang": "ja",
             "lang_name": "Japanese",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK JP",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ka",
@@ -1439,10 +1439,10 @@
             "lang": "ka",
             "lang_name": "Georgian",
             "alias": "system-ui",
-            "file": "NotoSansGeorgian[wght].ttf",
-            "family": "Noto Sans Georgian",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "kab",
@@ -1475,8 +1475,8 @@
             "lang": "kab",
             "lang_name": "Kabyle",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -1511,10 +1511,10 @@
             "lang": "kk",
             "lang_name": "Kazakh",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "km",
@@ -1547,10 +1547,10 @@
             "lang": "km",
             "lang_name": "Khmer",
             "alias": "system-ui",
-            "file": "NotoSansKhmer[wght].ttf",
-            "family": "Noto Sans Khmer",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "kn",
@@ -1583,10 +1583,10 @@
             "lang": "kn",
             "lang_name": "Kannada",
             "alias": "system-ui",
-            "file": "NotoSansKannada[wght].ttf",
-            "family": "Noto Sans Kannada",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ko",
@@ -1619,10 +1619,10 @@
             "lang": "ko",
             "lang_name": "Korean",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK KR",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "kw",
@@ -1655,8 +1655,8 @@
             "lang": "kw",
             "lang_name": "Cornish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -1691,10 +1691,10 @@
             "lang": "lo",
             "lang_name": "Lao",
             "alias": "system-ui",
-            "file": "NotoSansLao[wght].ttf",
-            "family": "Noto Sans Lao",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "lt",
@@ -1727,10 +1727,10 @@
             "lang": "lt",
             "lang_name": "Lithuanian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "lv",
@@ -1763,10 +1763,10 @@
             "lang": "lv",
             "lang_name": "Latvian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "mai",
@@ -1799,8 +1799,8 @@
             "lang": "mai",
             "lang_name": "Maithili",
             "alias": "system-ui",
-            "file": "NotoSansDevanagari[wght].ttf",
-            "family": "Noto Sans Devanagari",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -1835,8 +1835,8 @@
             "lang": "mk",
             "lang_name": "Macedonian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -1871,10 +1871,10 @@
             "lang": "ml",
             "lang_name": "Malayalam",
             "alias": "system-ui",
-            "file": "RIT-MeeraNew.otf",
-            "family": "RIT Meera New",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "mr",
@@ -1907,10 +1907,10 @@
             "lang": "mr",
             "lang_name": "Marathi",
             "alias": "system-ui",
-            "file": "NotoSansDevanagari[wght].ttf",
-            "family": "Noto Sans Devanagari",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ms",
@@ -1943,8 +1943,8 @@
             "lang": "ms",
             "lang_name": "Malay",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -1973,16 +1973,16 @@
             "file": "Padauk-Regular.ttf",
             "family": "Padauk",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "my",
             "lang_name": "Burmese",
             "alias": "system-ui",
-            "file": "Padauk-Regular.ttf",
-            "family": "Padauk",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "nb",
@@ -2015,10 +2015,10 @@
             "lang": "nb",
             "lang_name": "Norwegian Bokm\u00e5l",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "nds",
@@ -2051,8 +2051,8 @@
             "lang": "nds",
             "lang_name": "Low German",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -2087,8 +2087,8 @@
             "lang": "ne",
             "lang_name": "Nepali",
             "alias": "system-ui",
-            "file": "NotoSansDevanagari[wght].ttf",
-            "family": "Noto Sans Devanagari",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -2123,10 +2123,10 @@
             "lang": "nl",
             "lang_name": "Dutch",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "nn",
@@ -2159,10 +2159,10 @@
             "lang": "nn",
             "lang_name": "Norwegian Nynorsk",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "nso",
@@ -2195,8 +2195,8 @@
             "lang": "nso",
             "lang_name": "Northern Sotho",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -2231,10 +2231,10 @@
             "lang": "oc",
             "lang_name": "Occitan",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "om",
@@ -2267,8 +2267,8 @@
             "lang": "om",
             "lang_name": "Oromo",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -2303,10 +2303,10 @@
             "lang": "or",
             "lang_name": "Odia",
             "alias": "system-ui",
-            "file": "NotoSansOriya[wght].ttf",
-            "family": "Noto Sans Oriya",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "pa-pk",
@@ -2333,16 +2333,16 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "pa-pk",
             "lang_name": "Punjabi (Pakistan)",
             "alias": "system-ui",
-            "file": "PakTypeNaskhBasic.ttf",
-            "family": "PakType Naskh Basic",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "pl",
@@ -2375,10 +2375,10 @@
             "lang": "pl",
             "lang_name": "Polish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "pt",
@@ -2411,10 +2411,10 @@
             "lang": "pt",
             "lang_name": "Portuguese",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ro",
@@ -2447,10 +2447,10 @@
             "lang": "ro",
             "lang_name": "Romanian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ru",
@@ -2483,10 +2483,10 @@
             "lang": "ru",
             "lang_name": "Russian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "si",
@@ -2519,10 +2519,10 @@
             "lang": "si",
             "lang_name": "Sinhala",
             "alias": "system-ui",
-            "file": "NotoSansSinhala[wght].ttf",
-            "family": "Noto Sans Sinhala",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "sk",
@@ -2555,10 +2555,10 @@
             "lang": "sk",
             "lang_name": "Slovak",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "sl",
@@ -2591,10 +2591,10 @@
             "lang": "sl",
             "lang_name": "Slovenian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "sq",
@@ -2627,10 +2627,10 @@
             "lang": "sq",
             "lang_name": "Albanian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "sr",
@@ -2663,10 +2663,10 @@
             "lang": "sr",
             "lang_name": "Serbian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "sv",
@@ -2699,10 +2699,10 @@
             "lang": "sv",
             "lang_name": "Swedish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ta",
@@ -2735,10 +2735,10 @@
             "lang": "ta",
             "lang_name": "Tamil",
             "alias": "system-ui",
-            "file": "NotoSansTamil[wght].ttf",
-            "family": "Noto Sans Tamil",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "te",
@@ -2771,10 +2771,10 @@
             "lang": "te",
             "lang_name": "Telugu",
             "alias": "system-ui",
-            "file": "NotoSansTelugu[wght].ttf",
-            "family": "Noto Sans Telugu",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "tg",
@@ -2807,8 +2807,8 @@
             "lang": "tg",
             "lang_name": "Tajik",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -2843,10 +2843,10 @@
             "lang": "th",
             "lang_name": "Thai",
             "alias": "system-ui",
-            "file": "NotoSansThai[wght].ttf",
-            "family": "Noto Sans Thai",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "tr",
@@ -2879,10 +2879,10 @@
             "lang": "tr",
             "lang_name": "Turkish",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "uk",
@@ -2915,10 +2915,10 @@
             "lang": "uk",
             "lang_name": "Ukrainian",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "ur",
@@ -2945,16 +2945,16 @@
             "file": "Vazirmatn[wght].ttf",
             "family": "Vazirmatn",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "ur",
             "lang_name": "Urdu",
             "alias": "system-ui",
-            "file": "PakTypeNaskhBasic.ttf",
-            "family": "PakType Naskh Basic",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "uz",
@@ -2987,8 +2987,8 @@
             "lang": "uz",
             "lang_name": "Uzbek",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -3023,10 +3023,10 @@
             "lang": "vi",
             "lang_name": "Vietnamese",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "zh-cn",
@@ -3059,10 +3059,10 @@
             "lang": "zh-cn",
             "lang_name": "Simplified Chinese (China)",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK SC",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "zh-hk",
@@ -3095,10 +3095,10 @@
             "lang": "zh-hk",
             "lang_name": "Traditional Chinese (Hong Kong)",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK HK",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "zh-mo",
@@ -3107,7 +3107,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
@@ -3116,7 +3116,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
@@ -3125,14 +3125,14 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK HK",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-mo",
             "lang_name": "Traditional Chinese (Macau SAR China)",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK HK",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -3143,7 +3143,7 @@
             "file": "NotoSansCJK-VF.ttc",
             "family": "Noto Sans CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
@@ -3152,7 +3152,7 @@
             "file": "NotoSerifCJK-VF.ttc",
             "family": "Noto Serif CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
@@ -3161,14 +3161,14 @@
             "file": "NotoSansMonoCJK-VF.ttc",
             "family": "Noto Sans Mono CJK SC",
             "style": "Regular",
-            "is_default": 2
+            "is_default": 1
         },
         {
             "lang": "zh-sg",
             "lang_name": "Simplified Chinese (Singapore)",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK SC",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         },
@@ -3203,10 +3203,10 @@
             "lang": "zh-tw",
             "lang_name": "Traditional Chinese (Republic of China)",
             "alias": "system-ui",
-            "file": "NotoSansCJK-VF.ttc",
-            "family": "Noto Sans CJK TC",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
-            "is_default": 0
+            "is_default": 2
         },
         {
             "lang": "zu",
@@ -3239,8 +3239,8 @@
             "lang": "zu",
             "lang_name": "Zulu",
             "alias": "system-ui",
-            "file": "NotoSans[wght].ttf",
-            "family": "Noto Sans",
+            "file": "Cantarell-VF.otf",
+            "family": "Cantarell",
             "style": "Regular",
             "is_default": 2
         }
