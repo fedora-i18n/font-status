@@ -1,8 +1,8 @@
 {
     "id": "fedora",
-    "version_id": "45",
+    "version_id": "46",
     "pattern": "minimal",
-    "fq_id": "20260813013948",
+    "fq_id": "20260901032128",
     "fonts": [
         {
             "lang": "af",
