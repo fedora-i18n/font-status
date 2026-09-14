@@ -132,9 +132,7 @@ jobs:
           if_no_artifact_found: fail
       - name: Update JSON
         run: |
-          for f in output-*/*.json; do
-            mv $f json
-          done
+          .github/scripts/update-json.sh json output-*/*.json
           rm -rf output-*
       - name: Add/Update JSON to git
         uses: EndBug/add-and-commit@v9
