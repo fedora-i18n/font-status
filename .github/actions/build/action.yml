@@ -35,7 +35,7 @@ runs:
       shell: bash
     - name: Upload JSON
       id: upload
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: output-json-${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}
         path: ${{ steps.json.outputs.path }}

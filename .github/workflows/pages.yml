@@ -42,7 +42,7 @@ jobs:
       date: ${{ steps.date.outputs.date }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Checkout fontquery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -73,7 +73,7 @@ jobs:
         target: ["minimal"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: setup for fontquery
         uses: ./.github/actions/fqsetup
         with:
@@ -98,7 +98,7 @@ jobs:
         target: ["minimal"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: setup for fontquery
         uses: ./.github/actions/fqsetup
         with:
@@ -119,12 +119,12 @@ jobs:
       committed: ${{ steps.commit.outputs.committed }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Set date
         id: date
         run: (echo -n "date=" && date +%Y%m%d) >> $GITHUB_OUTPUT
       - name: Download results in matrix
-        uses: dawidd6/action-download-artifact@v3
+        uses: dawidd6/action-download-artifact@v24
         with:
           name: "output-json-*"
           name_is_regexp: true
@@ -135,7 +135,7 @@ jobs:
           .github/scripts/update-json.sh json output-*/*.json
           rm -rf output-*
       - name: Add/Update JSON to git
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         id: commit
         with:
           add: json
@@ -155,7 +155,7 @@ jobs:
         target: ["minimal"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Build HTML
         id: html
         uses: ./.github/actions/genhtml
@@ -178,7 +178,7 @@ jobs:
         target: ["minimal"]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Build HTML
         id: html
         uses: ./.github/actions/genhtml
@@ -202,11 +202,11 @@ jobs:
     if: ${{ needs.commit_changes.outputs.committed == 'true' || github.event.inputs.force == 'true' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: Download HTML files in matrix
-        uses: dawidd6/action-download-artifact@v3
+        uses: dawidd6/action-download-artifact@v24
         with:
           name: "output-html-*"
           name_is_regexp: true
@@ -261,13 +261,13 @@ jobs:
           rmdir used
           rm LICENSE || :
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           retention-days: 14
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

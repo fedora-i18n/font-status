@@ -29,7 +29,7 @@ runs:
   using: "composite"
   steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: fontquery setup
       uses: ./.github/actions/fqsetup
       with:
@@ -67,7 +67,7 @@ runs:
       shell: bash
     - name: Upload HTML
       id: upload
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: output-html-${{ inputs.product }}-${{ inputs.release }}-${{ inputs.target }}
         path: ${{ steps.html.outputs.path }}
