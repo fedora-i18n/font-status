@@ -35,5 +35,5 @@ runs:
     - name: Obtain a list of tags associated with a file
       id: tags
       run: |
-        git rev-list -${{ inputs.max_count }} HEAD -- ${{ inputs.target }} | xargs git describe --tags --always | grep -E "^[0-9]{8}$" | awk 'BEGIN{S="value=["}{S=sprintf("%s\"%s\",",S,$0)}END{print S}' | sed -e 's/,$/]/' >> $GITHUB_OUTPUT
+        echo "value=$(.github/scripts/taglist.sh '${{ inputs.target }}' '${{ inputs.max_count }}')" >> $GITHUB_OUTPUT
       shell: bash
